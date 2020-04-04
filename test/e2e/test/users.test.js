@@ -48,7 +48,6 @@ describe('Users suite', () => {
         .set('Accept', 'application/json')
         .expect(200)
         .expect('Content-Type', /json/);
-
       expect(userResponse.body).to.be.instanceOf(Object);
       expect(userResponse.body.id).to.equal(userId);
     });
@@ -132,7 +131,6 @@ describe('Users suite', () => {
       // Setup:
       const userResponse = await request
         .post(routes.users.create)
-        .send(TEST_USER_DATA)
         .set('Accept', 'application/json')
         .expect(200)
         .expect('Content-Type', /json/);

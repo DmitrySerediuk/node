@@ -1,46 +1,42 @@
 const router = require('express').Router();
-const usersService = require('./user.service');
-const taskService = require('../tasks/task.service');
+const columnService = require('./column.service');
 const ERROR = require('../errors/errors');
 const errorHandle = require('../errors/errorHandle');
 
 router.route('/').get(async (req, res) => {
-  const users = await usersService.getAll();
-  res.json(users);
+  const boards = await columnService.getAll();
+  res.json(boards);
 });
 
 router.route('/:id').get(async (req, res) => {
-  const selectedUser = await usersService.getById(req.params.id);
-  if (!selectedUser.id) {
+  const selectedBoard = await columnService.getById(req.params.id);
+  if (!selectedBoard.id) {
     errorHandle(res, ERROR.NOT_FOUND);
   } else {
-    res.json(selectedUser);
+    res.json(selectedBoard);
   }
 });
 
 router.route('/').post(async (req, res) => {
-  const newUser = await usersService.create(req.body);
-  if (!newUser) {
+  const newBoard = await columnService.create(req.body);
+  if (!newBoard) {
     errorHandle(res, ERROR.BAD_REQUEST);
   } else {
-    res.json(newUser);
+    res.json(newBoard);
   }
 });
 
 router.route('/:id').put(async (req, res) => {
-  const updateUser = await usersService.update(req.params.id, req.body);
-  if (updateUser.id) {
-    res.json(updateUser);
+  const updateStatus = await columnService.update(req.params.id, req.body);
+  if (updateStatus) {
+    res.json(ERROR.NO_ERROR.MESSAGE);
   } else {
     errorHandle(res, ERROR.BAD_REQUEST);
   }
 });
 
 router.route('/:id').delete(async (req, res) => {
-  if (
-    (await usersService.delete(req.params.id)) &&
-    (await taskService.cleanUserTask(req.params.id))
-  ) {
+  if (await columnService.delete(req.params.id)) {
     res.json(ERROR.NO_ERROR.MESSAGE);
   } else {
     errorHandle(res, ERROR.BAD_REQUEST);

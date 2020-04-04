@@ -1,5 +1,5 @@
 const dbObj = require('../../common/db.memory.repository');
 
-class userRepo extends dbObj {}
+class boardRepo extends dbObj {}
 
-module.exports = userRepo;
+module.exports = boardRepo;
