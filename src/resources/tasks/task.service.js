@@ -14,27 +14,14 @@ class TaskService extends ObjService {
   }
 
   create(boardId, data) {
-    // if (boardId === undefined || data.title === undefined || data.order === undefined || data.description === undefined)
-    //     return undefined;
     data.boardId = boardId;
     return super.create(data);
   }
 
-  // update(id, data){
-  //     if (data.title === undefined || data.order === undefined || data.description === undefined)
-  //         return undefined;
-  //     const res = super.update(id, data)
-  //     return super.update(id, res);
-  // }
-
   async cleanUserTask(userId) {
-    // if (userId === undefined)
-    //     return undefined;
     return await this.objRepo.cleanUserTask(userId);
   }
   async deleteByBoardId(boardId) {
-    // if (boardId === undefined)
-    //     return false;
     return await this.objRepo.deleteByBoardId(boardId);
   }
 }
