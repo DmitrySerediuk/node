@@ -1,5 +1,5 @@
-const db = require('./user.db');
-const User = require('./user.model');
+const db = require('./board.db');
+const Board = require('./board.model');
 
 const getAll = async () => {
   return db;
@@ -18,7 +18,7 @@ const getById = async id => {
 };
 
 const create = async data => {
-  const newRow = new User(data);
+  const newRow = new Board(data);
   db.push(newRow);
   return newRow;
 };

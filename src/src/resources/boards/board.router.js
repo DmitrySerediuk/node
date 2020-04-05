@@ -1,37 +1,36 @@
 const router = require('express').Router();
-const usersService = require('./user.service');
+const boardService = require('./board.service');
 const taskService = require('../tasks/task.service');
-const User = require('./user.model');
 const ERROR = require('../errors/errors');
 const errorHandle = require('../errors/errorHandle');
 
 router.route('/').get(async (req, res) => {
-  const users = await usersService.getAll();
-  res.json(users.map(User.toResponse));
+  const boards = await boardService.getAll();
+  res.json(boards);
 });
 
 router.route('/:id').get(async (req, res) => {
-  const selectedUser = await usersService.getById(req.params.id);
-  if (!selectedUser.id) {
+  const selectedBoard = await boardService.getById(req.params.id);
+  if (!selectedBoard.id) {
     errorHandle(res, ERROR.NOT_FOUND);
   } else {
-    res.json(User.toResponse(selectedUser));
+    res.json(selectedBoard);
   }
 });
 
 router.route('/').post(async (req, res) => {
-  const newUser = await usersService.create(req.body);
-  if (!newUser) {
+  const newBoard = await boardService.create(req.body);
+  if (!newBoard) {
     errorHandle(res, ERROR.BAD_REQUEST);
   } else {
-    res.json(User.toResponse(newUser));
+    res.json(newBoard);
   }
 });
 
 router.route('/:id').put(async (req, res) => {
-  const updateUser = await usersService.update(req.params.id, req.body);
-  if (updateUser.id) {
-    res.json(User.toResponse(updateUser));
+  const updateStatus = await boardService.update(req.params.id, req.body);
+  if (updateStatus) {
+    res.json(ERROR.NO_ERROR.MESSAGE);
   } else {
     errorHandle(res, ERROR.BAD_REQUEST);
   }
@@ -39,8 +38,8 @@ router.route('/:id').put(async (req, res) => {
 
 router.route('/:id').delete(async (req, res) => {
   if (
-    (await usersService.remove(req.params.id)) &&
-    (await taskService.cleanUserTask(req.params.id))
+    (await boardService.delete(req.params.id)) &&
+    (await taskService.deleteByBoardId(req.params.id))
   ) {
     res.json(ERROR.NO_ERROR.MESSAGE);
   } else {

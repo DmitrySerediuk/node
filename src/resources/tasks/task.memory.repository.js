@@ -1,5 +1,5 @@
-const db = require('./user.db');
-const User = require('./user.model');
+let db = require('./task.db');
+const Task = require('./task.model');
 
 const getAll = async () => {
   return db;
@@ -18,7 +18,7 @@ const getById = async id => {
 };
 
 const create = async data => {
-  const newRow = new User(data);
+  const newRow = new Task(data);
   db.push(newRow);
   return newRow;
 };
@@ -56,4 +56,35 @@ const remove = async id => {
   return true;
 };
 
-module.exports = { getAll, getById, create, update, remove };
+const getByBoardId = async boardId => {
+  const tasks = db.filter(e => {
+    return e.boardId === boardId;
+  });
+  return tasks;
+};
+
+const cleanUserTask = async userId => {
+  db.forEach(e => {
+    if (e.userId === userId) e.userId = null;
+  });
+  return true;
+};
+
+const deleteByBoardId = async boardId => {
+  const tasks = db.filter(e => {
+    return e.boardId !== boardId;
+  });
+  db = tasks;
+  return true;
+};
+
+module.exports = {
+  getAll,
+  getById,
+  create,
+  update,
+  remove,
+  getByBoardId,
+  cleanUserTask,
+  deleteByBoardId
+};
