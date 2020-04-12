@@ -1,0 +1,49 @@
+loglevel -> error: Unhandled Rejectiontest
+loglevel -> error: Unhandled Rejection Error: test
+loglevel -> error: Unhandled Rejection Error: test
+loglevel -> error: Unhandled Rejection Error: test
+loglevel -> error: Unhandled Rejection Error: test
+loglevel -> error: Unhandled Rejection at [object Promise] by reason: Error: test
+loglevel -> error: Unhandled Rejection at [object Promise] by reason: Error: test
+loglevel -> error: Unhandled Rejection at {} by reason: Error: test
+loglevel -> error: Unhandled Rejection at {} by reason: Error: test
+loglevel -> error: Unhandled Rejection at promice by reason: Error: test
+loglevel -> error: Unhandled Rejection at promice by reason: Error: test
+loglevel -> error: Unhandled Rejection at promice by reason: Error: test
+loglevel -> error: Unhandled Rejection at promice by reason: Error: test
+error: Unhandled Rejection at promice by reason: Error: test
+error: Unhandled Rejection at promice by reason: Error: test
+error: Unhandled Rejection at promice by reason: Error: test
+error: Unhandled Rejection at promice by reason: Error: test
+error: GET, /users?id=4, status: 500, error: test, query: {"id":"4"}, params: {}}
+error: Uncaught Exception Error: Test uncaughtException error
+error: Uncaught Exception Error: Test uncaughtException error
+error: GET, /boards/1, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/e24a80b7-9b97-42ad-a6cc-2ace87829860/tasks/b3f49a4e-886e-470d-b441-651230f00b29, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/7fe905a0-6f32-4bec-9c5c-57345510703a/tasks/e8f92d39-7a7e-4e5e-9fa9-8442381c0154, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/7fe905a0-6f32-4bec-9c5c-57345510703a/tasks/debf5b35-d11d-47c7-9620-ff2c8150f2a7, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/7fe905a0-6f32-4bec-9c5c-57345510703a/tasks/b8444bd3-8c18-42bf-8cea-ea159f6b9eae, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/7fe905a0-6f32-4bec-9c5c-57345510703a/tasks/3b77b517-5d1d-494d-9b5c-3f2ce139d607, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/7fe905a0-6f32-4bec-9c5c-57345510703a/tasks/2fdab537-ebdf-467c-943e-881ae2f7b44b, status: 404, error: Task not found, query: {}, params: {}}
+error: PUT, /boards/764d077a-7185-431d-852e-c297619cfac2, status: 500, error: ERROR is not defined, query: {}, params: {"id":"764d077a-7185-431d-852e-c297619cfac2","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: GET, /boards/1, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/ecf89a0d-1ce5-464a-ad0a-8825886897da/tasks/568c4a7a-2f63-46da-ac8e-832652d78944, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/ecf89a0d-1ce5-464a-ad0a-8825886897da/tasks/bf1ba18a-3a2c-4493-b9df-c581d4fb2a5f, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/ecf89a0d-1ce5-464a-ad0a-8825886897da/tasks/933f8767-9684-449e-9cee-fcdaa876128a, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/ecf89a0d-1ce5-464a-ad0a-8825886897da/tasks/543b4762-089b-4afc-9f38-8ffa25894607, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/ecf89a0d-1ce5-464a-ad0a-8825886897da/tasks/af3e4224-121a-4a39-b4d4-bc4daaf88644, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/0d98561b-9f12-4768-9a4f-830dd3ac9d02/tasks/761afac4-20ae-4a3f-9cfe-99001d841227, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/1, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/78510e7b-6f16-4df1-8743-228c56757115/tasks/a380e6c5-11f9-4efe-9c58-8b9f5ccdf191, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/0873fb69-51a7-4620-8d3b-bce766c2a2ab/tasks/b7ef0ac7-7d37-4c4a-aa88-1f7131cc8ff2, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/0873fb69-51a7-4620-8d3b-bce766c2a2ab/tasks/7e38d7b7-75c5-4b26-a597-a0dcee940706, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/0873fb69-51a7-4620-8d3b-bce766c2a2ab/tasks/a5a07f70-1494-4a42-9921-4704b79f84c8, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/0873fb69-51a7-4620-8d3b-bce766c2a2ab/tasks/7e3a9a08-acea-41f0-8c54-ec4494382f7f, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/0873fb69-51a7-4620-8d3b-bce766c2a2ab/tasks/9700768e-a22b-471d-bb23-5b1de4d2f231, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/d996b09d-d85c-42bf-9d08-69f069a6106f/tasks/fd803a0b-ad73-4560-83a8-8abae8d20cb9, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/1, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/42e4c5fb-2d0f-4353-a727-9550348c2312/tasks/b91e2b15-39c3-4803-894d-7416b710315d, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/42e4c5fb-2d0f-4353-a727-9550348c2312/tasks/b700af0a-3a32-42bf-9290-e28ae03a5861, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/42e4c5fb-2d0f-4353-a727-9550348c2312/tasks/2a99af1d-9f6e-4644-9e4a-3a2ca208ddaf, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/42e4c5fb-2d0f-4353-a727-9550348c2312/tasks/6574385c-8a1a-4c91-a90d-91610c7fd56a, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/42e4c5fb-2d0f-4353-a727-9550348c2312/tasks/4258584b-2488-4155-b54b-03122e9999bb, status: 404, error: Task not found, query: {}, params: {}}
