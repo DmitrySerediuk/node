@@ -754,3 +754,1057 @@ info: GET /boards/450c4091-b089-4ffd-bacb-2980be7c8e89/tasks/763f4317-43b7-4167-
 info: DELETE /boards/450c4091-b089-4ffd-bacb-2980be7c8e89/tasks/ce580a26-17db-4bbf-b6df-754ee191a493 |  query: {}, params: {}
 info: DELETE /boards/450c4091-b089-4ffd-bacb-2980be7c8e89/tasks/763f4317-43b7-4167-9dd8-a648b2459d03 |  query: {}, params: {}
 info: DELETE /boards/450c4091-b089-4ffd-bacb-2980be7c8e89 |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/169d87c9-8dc8-4a03-b5cb-0605b08a04c5 |  query: {}, params: {}
+info: DELETE /users/169d87c9-8dc8-4a03-b5cb-0605b08a04c5 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/8907a326-c082-4d11-8c32-19fee358effe |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/2fc40a0c-3b2b-4841-8442-6fb44b67b4cb |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"2fc40a0c-3b2b-4841-8442-6fb44b67b4cb"}
+info: GET /users/2fc40a0c-3b2b-4841-8442-6fb44b67b4cb |  query: {}, params: {}
+info: DELETE /users/2fc40a0c-3b2b-4841-8442-6fb44b67b4cb |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/8b496f6a-b166-4ad3-aa6f-08fc69144e90 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/e2ffaa30-3a8e-4513-b8d1-4d5b887eae27/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"88fb5402-efd5-459f-b52a-5d0cfc6d8c31","boardId":"e2ffaa30-3a8e-4513-b8d1-4d5b887eae27"}
+info: POST /boards/e2ffaa30-3a8e-4513-b8d1-4d5b887eae27/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"88fb5402-efd5-459f-b52a-5d0cfc6d8c31","boardId":"e2ffaa30-3a8e-4513-b8d1-4d5b887eae27"}
+info: DELETE /users/88fb5402-efd5-459f-b52a-5d0cfc6d8c31 |  query: {}, params: {}
+info: GET /boards/e2ffaa30-3a8e-4513-b8d1-4d5b887eae27/tasks/6b6bbe8d-a02f-484c-a7eb-85db84602fe0 |  query: {}, params: {}
+info: GET /boards/e2ffaa30-3a8e-4513-b8d1-4d5b887eae27/tasks/9445383b-7f30-43a4-a576-719a990d4c9e |  query: {}, params: {}
+info: DELETE /boards/e2ffaa30-3a8e-4513-b8d1-4d5b887eae27/tasks/6b6bbe8d-a02f-484c-a7eb-85db84602fe0 |  query: {}, params: {}
+info: DELETE /boards/e2ffaa30-3a8e-4513-b8d1-4d5b887eae27/tasks/9445383b-7f30-43a4-a576-719a990d4c9e |  query: {}, params: {}
+info: DELETE /boards/e2ffaa30-3a8e-4513-b8d1-4d5b887eae27 |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+error: Unhandled Rejection at promice by reason: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+info: GET /users |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/8562adb3-a077-4111-b588-e013be25617e |  query: {}, params: {}
+info: DELETE /users/8562adb3-a077-4111-b588-e013be25617e |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/c9ba6329-ee16-4cb5-baa9-912504725865 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/72fc1c7c-f810-45ce-a017-7cda7138e0f1 |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"72fc1c7c-f810-45ce-a017-7cda7138e0f1"}
+info: GET /users/72fc1c7c-f810-45ce-a017-7cda7138e0f1 |  query: {}, params: {}
+info: DELETE /users/72fc1c7c-f810-45ce-a017-7cda7138e0f1 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/2640c455-8d3b-4a2e-a5bd-bd42832ae439 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/3b500178-0049-4c9e-9ad3-7d60f51514d8/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"aa410fde-f683-4e74-9858-18d2d39850f6","boardId":"3b500178-0049-4c9e-9ad3-7d60f51514d8"}
+info: POST /boards/3b500178-0049-4c9e-9ad3-7d60f51514d8/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"aa410fde-f683-4e74-9858-18d2d39850f6","boardId":"3b500178-0049-4c9e-9ad3-7d60f51514d8"}
+info: DELETE /users/aa410fde-f683-4e74-9858-18d2d39850f6 |  query: {}, params: {}
+info: GET /boards/3b500178-0049-4c9e-9ad3-7d60f51514d8/tasks/9d67cc8c-77cd-49d5-8dd9-0a10529385cf |  query: {}, params: {}
+info: GET /boards/3b500178-0049-4c9e-9ad3-7d60f51514d8/tasks/804560e1-824c-4f95-9599-b9ccf4c3fbb3 |  query: {}, params: {}
+info: DELETE /boards/3b500178-0049-4c9e-9ad3-7d60f51514d8/tasks/9d67cc8c-77cd-49d5-8dd9-0a10529385cf |  query: {}, params: {}
+info: DELETE /boards/3b500178-0049-4c9e-9ad3-7d60f51514d8/tasks/804560e1-824c-4f95-9599-b9ccf4c3fbb3 |  query: {}, params: {}
+info: DELETE /boards/3b500178-0049-4c9e-9ad3-7d60f51514d8 |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/521fbd69-fbca-4bf8-baad-13750212b266 |  query: {}, params: {}
+info: DELETE /users/521fbd69-fbca-4bf8-baad-13750212b266 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/3d92d6d8-686f-4e27-9ce8-0d2b2c0966b2 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/81ee1b32-91ec-4233-9b9b-9cf90506ceb6 |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"81ee1b32-91ec-4233-9b9b-9cf90506ceb6"}
+info: GET /users/81ee1b32-91ec-4233-9b9b-9cf90506ceb6 |  query: {}, params: {}
+info: DELETE /users/81ee1b32-91ec-4233-9b9b-9cf90506ceb6 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/d2f2ed07-e451-4267-9c8b-9f57bdc939f2 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/f0acc551-1d3a-4da0-bf8b-d4a58b79aaaa/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"d99c4716-7987-4fa0-aa46-ecd323e015d0","boardId":"f0acc551-1d3a-4da0-bf8b-d4a58b79aaaa"}
+info: POST /boards/f0acc551-1d3a-4da0-bf8b-d4a58b79aaaa/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"d99c4716-7987-4fa0-aa46-ecd323e015d0","boardId":"f0acc551-1d3a-4da0-bf8b-d4a58b79aaaa"}
+info: DELETE /users/d99c4716-7987-4fa0-aa46-ecd323e015d0 |  query: {}, params: {}
+info: GET /boards/f0acc551-1d3a-4da0-bf8b-d4a58b79aaaa/tasks/245016da-dd3a-46a3-99bf-8d45d23e7f44 |  query: {}, params: {}
+info: GET /boards/f0acc551-1d3a-4da0-bf8b-d4a58b79aaaa/tasks/703d2cbb-6c81-4b8b-9d24-e4d9de39ee30 |  query: {}, params: {}
+info: DELETE /boards/f0acc551-1d3a-4da0-bf8b-d4a58b79aaaa/tasks/245016da-dd3a-46a3-99bf-8d45d23e7f44 |  query: {}, params: {}
+info: DELETE /boards/f0acc551-1d3a-4da0-bf8b-d4a58b79aaaa/tasks/703d2cbb-6c81-4b8b-9d24-e4d9de39ee30 |  query: {}, params: {}
+info: DELETE /boards/f0acc551-1d3a-4da0-bf8b-d4a58b79aaaa |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/3a9b6e9e-e4ce-49b0-be2e-92173c5696e1 |  query: {}, params: {}
+info: DELETE /users/3a9b6e9e-e4ce-49b0-be2e-92173c5696e1 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/3cecd361-6777-426f-91c2-531f3c222ade |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/42306df3-af7d-4359-957f-6f58db6d08ff |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"42306df3-af7d-4359-957f-6f58db6d08ff"}
+info: GET /users/42306df3-af7d-4359-957f-6f58db6d08ff |  query: {}, params: {}
+info: DELETE /users/42306df3-af7d-4359-957f-6f58db6d08ff |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/5c5511dd-129f-4124-aea5-457632325fc0 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/716e153b-2864-4478-9839-289ceebdf1c1/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5346025e-7137-4662-9df9-5d26e54b4620","boardId":"716e153b-2864-4478-9839-289ceebdf1c1"}
+info: POST /boards/716e153b-2864-4478-9839-289ceebdf1c1/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5346025e-7137-4662-9df9-5d26e54b4620","boardId":"716e153b-2864-4478-9839-289ceebdf1c1"}
+info: DELETE /users/5346025e-7137-4662-9df9-5d26e54b4620 |  query: {}, params: {}
+info: GET /boards/716e153b-2864-4478-9839-289ceebdf1c1/tasks/8e624991-bd45-434c-83c6-3c67e2aa3897 |  query: {}, params: {}
+info: GET /boards/716e153b-2864-4478-9839-289ceebdf1c1/tasks/9c07d00c-ed73-4e81-a455-9b7b1a57fd01 |  query: {}, params: {}
+info: DELETE /boards/716e153b-2864-4478-9839-289ceebdf1c1/tasks/8e624991-bd45-434c-83c6-3c67e2aa3897 |  query: {}, params: {}
+info: DELETE /boards/716e153b-2864-4478-9839-289ceebdf1c1/tasks/9c07d00c-ed73-4e81-a455-9b7b1a57fd01 |  query: {}, params: {}
+info: DELETE /boards/716e153b-2864-4478-9839-289ceebdf1c1 |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/f3a396cd-24dd-4237-b479-ed39e38190c7 |  query: {}, params: {}
+info: DELETE /users/f3a396cd-24dd-4237-b479-ed39e38190c7 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/d34c6f9f-68b1-42b8-bf56-e2fd431fee7a |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/11065983-5b33-4523-ab2e-37565d53d513 |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"11065983-5b33-4523-ab2e-37565d53d513"}
+info: GET /users/11065983-5b33-4523-ab2e-37565d53d513 |  query: {}, params: {}
+info: DELETE /users/11065983-5b33-4523-ab2e-37565d53d513 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/5ff6d504-39f5-4be6-a4fa-2bb2fa121248 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/aedd0565-397b-47a8-90f1-98f5d473f676/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"c2cadf41-0646-4d98-a038-08ad43327fa0","boardId":"aedd0565-397b-47a8-90f1-98f5d473f676"}
+info: POST /boards/aedd0565-397b-47a8-90f1-98f5d473f676/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"c2cadf41-0646-4d98-a038-08ad43327fa0","boardId":"aedd0565-397b-47a8-90f1-98f5d473f676"}
+info: DELETE /users/c2cadf41-0646-4d98-a038-08ad43327fa0 |  query: {}, params: {}
+info: GET /boards/aedd0565-397b-47a8-90f1-98f5d473f676/tasks/4cfc9886-0341-4338-812d-728022803357 |  query: {}, params: {}
+info: GET /boards/aedd0565-397b-47a8-90f1-98f5d473f676/tasks/d173b100-2a7d-4fb2-89cf-c1974ef208f6 |  query: {}, params: {}
+info: DELETE /boards/aedd0565-397b-47a8-90f1-98f5d473f676/tasks/d173b100-2a7d-4fb2-89cf-c1974ef208f6 |  query: {}, params: {}
+info: DELETE /boards/aedd0565-397b-47a8-90f1-98f5d473f676/tasks/4cfc9886-0341-4338-812d-728022803357 |  query: {}, params: {}
+info: DELETE /boards/aedd0565-397b-47a8-90f1-98f5d473f676 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: GET /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks |  query: {}, params: {}
+info: GET /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks |  query: {}, params: {}
+info: GET /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks/1133f692-ec00-4bd0-9c49-b7562668bad9 |  query: {}, params: {}
+info: POST /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: POST /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: PUT /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks/ea63dc59-a0cd-4a91-8b8d-9b934c9e9f24 |  query: {}, params: {"id":"ea63dc59-a0cd-4a91-8b8d-9b934c9e9f24","title":"Autotest updated task","order":"0","description":"Lorem ipsum","userId":null,"boardId":"06334045-9a60-4d68-8ed2-90455e693eb4","columnId":null}
+info: GET /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks/ea63dc59-a0cd-4a91-8b8d-9b934c9e9f24 |  query: {}, params: {}
+info: GET /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks/1133f692-ec00-4bd0-9c49-b7562668bad9 |  query: {}, params: {}
+info: DELETE /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks/1133f692-ec00-4bd0-9c49-b7562668bad9 |  query: {}, params: {}
+info: GET /boards/06334045-9a60-4d68-8ed2-90455e693eb4/tasks/1133f692-ec00-4bd0-9c49-b7562668bad9 |  query: {}, params: {}
+info: DELETE /boards/06334045-9a60-4d68-8ed2-90455e693eb4 |  query: {}, params: {}
+info: POST /boards/1/tasks |  query: {}, params: {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+info: POST /boards/1/tasks |  query: {}, params: {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+info: PUT /boards/undefined |  query: {}, params: {"error":"Board validation failed: columns: Cast to String failed for value \"[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]\" at path \"columns\"","title":"Autotest updated board"}
+error: PUT, /boards/undefined, status: 400, error: Bad user data, query: {}, params: {"error":"Board validation failed: columns: Cast to String failed for value \"[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]\" at path \"columns\"","title":"Autotest updated board"}}
+info: GET /boards |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+info: GET /users |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+info: GET /boards |  query: {}, params: {}
+info: POST /boards/undefined/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/undefined/tasks |  query: {}, params: {}
+info: GET /users/8b96b4e0-e4c9-4ddc-aa45-ffe4cfebadfa |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+info: PUT /boards/undefined |  query: {}, params: {"error":"Board validation failed: columns: Cast to String failed for value \"[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]\" at path \"columns\"","title":"Autotest updated board"}
+info: GET /boards/undefined/tasks |  query: {}, params: {}
+error: PUT, /boards/undefined, status: 400, error: Bad user data, query: {}, params: {"error":"Board validation failed: columns: Cast to String failed for value \"[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]\" at path \"columns\"","title":"Autotest updated board"}}
+info: DELETE /users/8b96b4e0-e4c9-4ddc-aa45-ffe4cfebadfa |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/undefined/tasks/907d8cf7-0261-42fc-8764-f69cf197970c |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: DELETE, /users/8b96b4e0-e4c9-4ddc-aa45-ffe4cfebadfa, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards/undefined/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: DELETE /users/2342ab82-14af-4622-97fd-cacc5bcd65f8 |  query: {}, params: {}
+info: POST /boards/undefined/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+error: DELETE, /users/2342ab82-14af-4622-97fd-cacc5bcd65f8, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /boards/undefined/tasks/46ace3c2-a2b6-4734-a2ad-55c29058e281 |  query: {}, params: {"id":"46ace3c2-a2b6-4734-a2ad-55c29058e281","title":"Autotest updated task","order":"0","description":"Lorem ipsum","userId":null,"boardId":"undefined","columnId":null}
+info: PUT /users/65a7cec3-4945-490b-85b2-2c6c309b4ec0 |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"65a7cec3-4945-490b-85b2-2c6c309b4ec0"}
+info: GET /boards/undefined/tasks/46ace3c2-a2b6-4734-a2ad-55c29058e281 |  query: {}, params: {}
+info: GET /users/65a7cec3-4945-490b-85b2-2c6c309b4ec0 |  query: {}, params: {}
+info: GET /boards/undefined/tasks/907d8cf7-0261-42fc-8764-f69cf197970c |  query: {}, params: {}
+info: DELETE /users/65a7cec3-4945-490b-85b2-2c6c309b4ec0 |  query: {}, params: {}
+info: DELETE /boards/undefined/tasks/907d8cf7-0261-42fc-8764-f69cf197970c |  query: {}, params: {}
+info: GET /boards/undefined/tasks/907d8cf7-0261-42fc-8764-f69cf197970c |  query: {}, params: {}
+error: DELETE, /users/65a7cec3-4945-490b-85b2-2c6c309b4ec0, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /boards/undefined |  query: {}, params: {}
+info: DELETE /users/226383c1-c9a7-4f83-b9fa-b7df675f974b |  query: {}, params: {}
+error: DELETE, /users/226383c1-c9a7-4f83-b9fa-b7df675f974b, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+info: POST /boards |  query: {}, params: {"title":"string","columns":[{"title":"string","order":0}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'string', order: 0 } ]" at path "columns", query: {}, params: {"title":"string","columns":[{"title":"string","order":0}]}}
+info: POST /boards |  query: {}, params: {"title":"string","columns":[{"title":"string","order":0}]}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'string', order: 0 } ]" at path "columns", query: {}, params: {"title":"string","columns":[{"title":"string","order":0}]}}
+info: POST /boards |  query: {}, params: {"title":"string","columns":[{"title":"string","order":0}]}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/fbc80bd8-1dd8-42a6-9727-33db91d413c4 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/0fbfea42-eeed-48ad-b94e-ba06207574c5 |  query: {}, params: {}
+error: DELETE, /boards/0fbfea42-eeed-48ad-b94e-ba06207574c5, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/199166ed-d0dd-47c5-9507-bf6bc0fe9f6a |  query: {}, params: {"id":"199166ed-d0dd-47c5-9507-bf6bc0fe9f6a","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/199166ed-d0dd-47c5-9507-bf6bc0fe9f6a |  query: {}, params: {}
+info: DELETE /boards/199166ed-d0dd-47c5-9507-bf6bc0fe9f6a |  query: {}, params: {}
+error: DELETE, /boards/199166ed-d0dd-47c5-9507-bf6bc0fe9f6a, status: 400, error: Bad user data, query: {}, params: {}}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/fbc80bd8-1dd8-42a6-9727-33db91d413c4 |  query: {}, params: {}
+error: DELETE, /boards/fbc80bd8-1dd8-42a6-9727-33db91d413c4, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"33769f9d-9b17-4599-8a8f-75e6a27e9875","userId":null,"columnId":null}
+info: POST /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"33769f9d-9b17-4599-8a8f-75e6a27e9875","userId":null,"columnId":null}
+info: POST /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"33769f9d-9b17-4599-8a8f-75e6a27e9875","userId":null,"columnId":null}
+info: POST /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"33769f9d-9b17-4599-8a8f-75e6a27e9875","userId":null,"columnId":null}
+info: POST /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"33769f9d-9b17-4599-8a8f-75e6a27e9875","userId":null,"columnId":null}
+info: GET /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/52df9c3e-3dc8-428a-8865-7b88012a3d4c |  query: {}, params: {}
+info: GET /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/33097281-d11d-4b96-b856-a7fbea8b80c3 |  query: {}, params: {}
+info: GET /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/2a037d41-934f-47e6-8148-41aec951ca63 |  query: {}, params: {}
+info: GET /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/d36eff45-bc89-4d7f-8556-827142f405bb |  query: {}, params: {}
+info: GET /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/456d477d-493c-49ac-9fc0-9be7caff7800 |  query: {}, params: {}
+info: DELETE /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875 |  query: {}, params: {}
+info: GET /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/33097281-d11d-4b96-b856-a7fbea8b80c3 |  query: {}, params: {}
+info: GET /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/52df9c3e-3dc8-428a-8865-7b88012a3d4c |  query: {}, params: {}
+info: GET /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/2a037d41-934f-47e6-8148-41aec951ca63 |  query: {}, params: {}
+info: GET /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/456d477d-493c-49ac-9fc0-9be7caff7800 |  query: {}, params: {}
+info: GET /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/d36eff45-bc89-4d7f-8556-827142f405bb |  query: {}, params: {}
+error: GET, /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/33097281-d11d-4b96-b856-a7fbea8b80c3, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/52df9c3e-3dc8-428a-8865-7b88012a3d4c, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/2a037d41-934f-47e6-8148-41aec951ca63, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/456d477d-493c-49ac-9fc0-9be7caff7800, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/d36eff45-bc89-4d7f-8556-827142f405bb, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/4d5b5f4c-0a61-4421-8506-5bea3996b809 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/17a011f4-a9a2-4b01-8c19-1be00b38aa48 |  query: {}, params: {}
+error: DELETE, /boards/17a011f4-a9a2-4b01-8c19-1be00b38aa48, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/c615b6de-b0d4-4c5f-8a2c-126321e830bd |  query: {}, params: {"id":"c615b6de-b0d4-4c5f-8a2c-126321e830bd","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/c615b6de-b0d4-4c5f-8a2c-126321e830bd |  query: {}, params: {}
+info: DELETE /boards/c615b6de-b0d4-4c5f-8a2c-126321e830bd |  query: {}, params: {}
+error: DELETE, /boards/c615b6de-b0d4-4c5f-8a2c-126321e830bd, status: 400, error: Bad user data, query: {}, params: {}}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/4d5b5f4c-0a61-4421-8506-5bea3996b809 |  query: {}, params: {}
+error: DELETE, /boards/4d5b5f4c-0a61-4421-8506-5bea3996b809, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"d777a3f9-26f9-4895-92a8-2191be2c2891","userId":null,"columnId":null}
+info: POST /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"d777a3f9-26f9-4895-92a8-2191be2c2891","userId":null,"columnId":null}
+info: POST /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"d777a3f9-26f9-4895-92a8-2191be2c2891","userId":null,"columnId":null}
+info: POST /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"d777a3f9-26f9-4895-92a8-2191be2c2891","userId":null,"columnId":null}
+info: POST /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"d777a3f9-26f9-4895-92a8-2191be2c2891","userId":null,"columnId":null}
+info: GET /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/55d589b0-6965-4eec-8fe4-40a258f33859 |  query: {}, params: {}
+info: GET /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/97247fa0-f486-4ec3-ada3-7822e31a30c3 |  query: {}, params: {}
+info: GET /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/fa6451c9-2050-4349-bd51-9b1738e0798d |  query: {}, params: {}
+info: GET /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/25a30a92-9d90-4750-8d23-5ac178565060 |  query: {}, params: {}
+info: GET /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/e49ea3e2-f2db-4962-b901-712382991824 |  query: {}, params: {}
+info: DELETE /boards/d777a3f9-26f9-4895-92a8-2191be2c2891 |  query: {}, params: {}
+info: GET /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/55d589b0-6965-4eec-8fe4-40a258f33859 |  query: {}, params: {}
+info: GET /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/97247fa0-f486-4ec3-ada3-7822e31a30c3 |  query: {}, params: {}
+info: GET /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/25a30a92-9d90-4750-8d23-5ac178565060 |  query: {}, params: {}
+info: GET /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/e49ea3e2-f2db-4962-b901-712382991824 |  query: {}, params: {}
+info: GET /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/fa6451c9-2050-4349-bd51-9b1738e0798d |  query: {}, params: {}
+error: GET, /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/55d589b0-6965-4eec-8fe4-40a258f33859, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/97247fa0-f486-4ec3-ada3-7822e31a30c3, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/25a30a92-9d90-4750-8d23-5ac178565060, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/e49ea3e2-f2db-4962-b901-712382991824, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/fa6451c9-2050-4349-bd51-9b1738e0798d, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"string","columns":[{"title":"string","order":0}]}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/d25ba404-22e4-44f0-9e10-37b64345fa51 |  query: {}, params: {}
+error: DELETE, /boards/d25ba404-22e4-44f0-9e10-37b64345fa51, status: 400, error: Bad user data, query: {}, params: {}}
+info: DELETE /boards/d25ba404-22e4-44f0-9e10-37b64345fa51 |  query: {}, params: {}
+error: DELETE, /boards/d25ba404-22e4-44f0-9e10-37b64345fa51, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/18e40892-3ee8-4627-8641-5d20b3ed303e |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/d087d219-d95b-4764-bb96-427202a4627a |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/5ceeaa6d-27df-4657-adb1-09f5b7522288 |  query: {}, params: {"id":"5ceeaa6d-27df-4657-adb1-09f5b7522288","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/5ceeaa6d-27df-4657-adb1-09f5b7522288 |  query: {}, params: {}
+info: DELETE /boards/5ceeaa6d-27df-4657-adb1-09f5b7522288 |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/18e40892-3ee8-4627-8641-5d20b3ed303e |  query: {}, params: {}
+info: GET /boards/18e40892-3ee8-4627-8641-5d20b3ed303e |  query: {}, params: {}
+error: GET, /boards/18e40892-3ee8-4627-8641-5d20b3ed303e, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"9ee0f24c-d3c2-4055-9461-59fee5fbaee1","userId":null,"columnId":null}
+info: POST /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"9ee0f24c-d3c2-4055-9461-59fee5fbaee1","userId":null,"columnId":null}
+info: POST /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"9ee0f24c-d3c2-4055-9461-59fee5fbaee1","userId":null,"columnId":null}
+info: POST /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"9ee0f24c-d3c2-4055-9461-59fee5fbaee1","userId":null,"columnId":null}
+info: POST /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"9ee0f24c-d3c2-4055-9461-59fee5fbaee1","userId":null,"columnId":null}
+info: GET /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/fcaeddd4-50a2-4c2b-818e-f5c74d731a14 |  query: {}, params: {}
+info: GET /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/3d72486e-41ab-40d5-bc9a-ea908fcac82b |  query: {}, params: {}
+info: GET /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/7ff3476d-91e2-40ce-a816-4de58b9127aa |  query: {}, params: {}
+info: GET /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/f32a5d25-003b-4f83-9946-4b2eb2ae8aac |  query: {}, params: {}
+info: GET /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/5be9b0a6-6388-4216-a8c6-6402b6d44911 |  query: {}, params: {}
+info: DELETE /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1 |  query: {}, params: {}
+info: GET /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/fcaeddd4-50a2-4c2b-818e-f5c74d731a14 |  query: {}, params: {}
+info: GET /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/3d72486e-41ab-40d5-bc9a-ea908fcac82b |  query: {}, params: {}
+info: GET /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/f32a5d25-003b-4f83-9946-4b2eb2ae8aac |  query: {}, params: {}
+info: GET /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/5be9b0a6-6388-4216-a8c6-6402b6d44911 |  query: {}, params: {}
+info: GET /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/7ff3476d-91e2-40ce-a816-4de58b9127aa |  query: {}, params: {}
+error: GET, /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/fcaeddd4-50a2-4c2b-818e-f5c74d731a14, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/3d72486e-41ab-40d5-bc9a-ea908fcac82b, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/f32a5d25-003b-4f83-9946-4b2eb2ae8aac, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/7ff3476d-91e2-40ce-a816-4de58b9127aa, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/5be9b0a6-6388-4216-a8c6-6402b6d44911, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/0c057f92-f742-4b46-ab11-447031109ba5 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/816a6cf9-4adb-4d4b-b906-aa0e72cf545f |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/c8e9b3a3-af13-45cb-901e-fa7c8650ddb7 |  query: {}, params: {"id":"c8e9b3a3-af13-45cb-901e-fa7c8650ddb7","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/c8e9b3a3-af13-45cb-901e-fa7c8650ddb7 |  query: {}, params: {}
+info: DELETE /boards/c8e9b3a3-af13-45cb-901e-fa7c8650ddb7 |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/0c057f92-f742-4b46-ab11-447031109ba5 |  query: {}, params: {}
+info: GET /boards/0c057f92-f742-4b46-ab11-447031109ba5 |  query: {}, params: {}
+error: GET, /boards/0c057f92-f742-4b46-ab11-447031109ba5, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"d026ba2a-5179-48e4-94b7-975a1f9efe83","userId":null,"columnId":null}
+info: POST /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"d026ba2a-5179-48e4-94b7-975a1f9efe83","userId":null,"columnId":null}
+info: POST /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"d026ba2a-5179-48e4-94b7-975a1f9efe83","userId":null,"columnId":null}
+info: POST /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"d026ba2a-5179-48e4-94b7-975a1f9efe83","userId":null,"columnId":null}
+info: POST /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"d026ba2a-5179-48e4-94b7-975a1f9efe83","userId":null,"columnId":null}
+info: GET /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks/b2a395a6-3847-4885-8ba3-a510dd2a4ef0 |  query: {}, params: {}
+info: GET /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks/c61e6449-393b-4616-82dc-cf87ecb77d83 |  query: {}, params: {}
+info: GET /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks/e37b9876-4fde-4eb6-badf-a488c019df47 |  query: {}, params: {}
+info: GET /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks/666e35c3-e033-4c3f-979b-475d653cb3dd |  query: {}, params: {}
+info: GET /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks/e09e4d9a-7ca6-4574-8716-506bf115f2ad |  query: {}, params: {}
+info: DELETE /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83 |  query: {}, params: {}
+info: GET /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks/b2a395a6-3847-4885-8ba3-a510dd2a4ef0 |  query: {}, params: {}
+info: GET /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks/e37b9876-4fde-4eb6-badf-a488c019df47 |  query: {}, params: {}
+info: GET /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks/666e35c3-e033-4c3f-979b-475d653cb3dd |  query: {}, params: {}
+info: GET /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks/e09e4d9a-7ca6-4574-8716-506bf115f2ad |  query: {}, params: {}
+info: GET /boards/d026ba2a-5179-48e4-94b7-975a1f9efe83/tasks/c61e6449-393b-4616-82dc-cf87ecb77d83 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"string","columns":[{"title":"string","order":0}]}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/5166f576-f308-4b8b-a41f-16fcc4a7b6ac |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/e18ed0be-6a4e-4618-90ed-f8843193928d |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/25ab082f-fa4c-42e2-b251-007e63e07786 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/2d8cafa1-1884-42dd-9062-eb14ff293afd |  query: {}, params: {"id":"2d8cafa1-1884-42dd-9062-eb14ff293afd","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/2d8cafa1-1884-42dd-9062-eb14ff293afd |  query: {}, params: {}
+info: DELETE /boards/2d8cafa1-1884-42dd-9062-eb14ff293afd |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/e18ed0be-6a4e-4618-90ed-f8843193928d |  query: {}, params: {}
+info: GET /boards/e18ed0be-6a4e-4618-90ed-f8843193928d |  query: {}, params: {}
+error: GET, /boards/e18ed0be-6a4e-4618-90ed-f8843193928d, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"372f2582-0700-4357-84af-fa3c545084ca","userId":null,"columnId":null}
+info: POST /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"372f2582-0700-4357-84af-fa3c545084ca","userId":null,"columnId":null}
+info: POST /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"372f2582-0700-4357-84af-fa3c545084ca","userId":null,"columnId":null}
+info: POST /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"372f2582-0700-4357-84af-fa3c545084ca","userId":null,"columnId":null}
+info: POST /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"372f2582-0700-4357-84af-fa3c545084ca","userId":null,"columnId":null}
+info: GET /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks/f650057d-8b40-4093-b516-a2e291e192f0 |  query: {}, params: {}
+info: GET /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks/53ef4822-ab6d-4c67-b59a-31b40916f332 |  query: {}, params: {}
+info: GET /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks/e4fa0c47-24a5-48fe-aa37-92e168f023b6 |  query: {}, params: {}
+info: GET /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks/5a5fb372-a5ae-4915-bdc3-01d0b1aee9be |  query: {}, params: {}
+info: GET /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks/02f9abab-6e36-48b5-a848-dd8ddf75d76b |  query: {}, params: {}
+info: DELETE /boards/372f2582-0700-4357-84af-fa3c545084ca |  query: {}, params: {}
+info: GET /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks/f650057d-8b40-4093-b516-a2e291e192f0 |  query: {}, params: {}
+info: GET /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks/53ef4822-ab6d-4c67-b59a-31b40916f332 |  query: {}, params: {}
+info: GET /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks/5a5fb372-a5ae-4915-bdc3-01d0b1aee9be |  query: {}, params: {}
+info: GET /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks/e4fa0c47-24a5-48fe-aa37-92e168f023b6 |  query: {}, params: {}
+info: GET /boards/372f2582-0700-4357-84af-fa3c545084ca/tasks/02f9abab-6e36-48b5-a848-dd8ddf75d76b |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/b562b23c-838e-458d-80b4-b89e73a38e29 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/50b6f206-6437-4240-95d2-3cced2d39965 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/682e8b43-4ba1-4382-bb31-c3984efd8a2b |  query: {}, params: {"id":"682e8b43-4ba1-4382-bb31-c3984efd8a2b","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/682e8b43-4ba1-4382-bb31-c3984efd8a2b |  query: {}, params: {}
+info: DELETE /boards/682e8b43-4ba1-4382-bb31-c3984efd8a2b |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/b562b23c-838e-458d-80b4-b89e73a38e29 |  query: {}, params: {}
+info: GET /boards/b562b23c-838e-458d-80b4-b89e73a38e29 |  query: {}, params: {}
+error: GET, /boards/b562b23c-838e-458d-80b4-b89e73a38e29, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5d72499f-d5f2-4ac1-b97c-73403c03c0c7","userId":null,"columnId":null}
+info: POST /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5d72499f-d5f2-4ac1-b97c-73403c03c0c7","userId":null,"columnId":null}
+info: POST /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5d72499f-d5f2-4ac1-b97c-73403c03c0c7","userId":null,"columnId":null}
+info: POST /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5d72499f-d5f2-4ac1-b97c-73403c03c0c7","userId":null,"columnId":null}
+info: POST /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5d72499f-d5f2-4ac1-b97c-73403c03c0c7","userId":null,"columnId":null}
+info: GET /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks/b6b6a1e2-7caa-4455-9a28-507522a33005 |  query: {}, params: {}
+info: GET /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks/8a1e4d12-ed17-4fd8-9837-208ae51f7f4c |  query: {}, params: {}
+info: GET /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks/8fc6e858-7171-4fe1-a9cd-79c1cd42c526 |  query: {}, params: {}
+info: GET /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks/f9842caf-29bc-4abc-85c9-af53a3fa2c3d |  query: {}, params: {}
+info: GET /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks/6cbf8e9a-1068-40bb-a701-c3115e87187d |  query: {}, params: {}
+info: DELETE /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7 |  query: {}, params: {}
+info: GET /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks/8a1e4d12-ed17-4fd8-9837-208ae51f7f4c |  query: {}, params: {}
+info: GET /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks/b6b6a1e2-7caa-4455-9a28-507522a33005 |  query: {}, params: {}
+info: GET /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks/f9842caf-29bc-4abc-85c9-af53a3fa2c3d |  query: {}, params: {}
+info: GET /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks/8fc6e858-7171-4fe1-a9cd-79c1cd42c526 |  query: {}, params: {}
+info: GET /boards/5d72499f-d5f2-4ac1-b97c-73403c03c0c7/tasks/6cbf8e9a-1068-40bb-a701-c3115e87187d |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/2e206dc4-da36-41c2-8d9d-95a4bb2815ca |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/53070bdf-cdbf-4d42-b84a-48a716629b57 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/3b90f3a5-4f71-448a-938f-eb549e011b6f |  query: {}, params: {"id":"3b90f3a5-4f71-448a-938f-eb549e011b6f","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/3b90f3a5-4f71-448a-938f-eb549e011b6f |  query: {}, params: {}
+info: DELETE /boards/3b90f3a5-4f71-448a-938f-eb549e011b6f |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/2e206dc4-da36-41c2-8d9d-95a4bb2815ca |  query: {}, params: {}
+info: GET /boards/2e206dc4-da36-41c2-8d9d-95a4bb2815ca |  query: {}, params: {}
+error: GET, /boards/2e206dc4-da36-41c2-8d9d-95a4bb2815ca, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"c37fcb5a-e08b-4ae1-8926-bee7e7dcb815","userId":null,"columnId":null}
+info: POST /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"c37fcb5a-e08b-4ae1-8926-bee7e7dcb815","userId":null,"columnId":null}
+info: POST /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"c37fcb5a-e08b-4ae1-8926-bee7e7dcb815","userId":null,"columnId":null}
+info: POST /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"c37fcb5a-e08b-4ae1-8926-bee7e7dcb815","userId":null,"columnId":null}
+info: POST /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"c37fcb5a-e08b-4ae1-8926-bee7e7dcb815","userId":null,"columnId":null}
+info: GET /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks/d7f3944f-eb30-4c9f-b76b-73702d1e12be |  query: {}, params: {}
+info: GET /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks/b0b6b9e9-4810-4489-a648-b5ffb9557e7a |  query: {}, params: {}
+info: GET /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks/5f9f129c-a622-4d02-81d0-41eceedb1838 |  query: {}, params: {}
+info: GET /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks/8d7bbbcb-9d94-4102-be6c-91d401454f96 |  query: {}, params: {}
+info: GET /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks/e1019303-fb46-4840-90f8-5efb589887eb |  query: {}, params: {}
+info: DELETE /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815 |  query: {}, params: {}
+info: GET /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks/5f9f129c-a622-4d02-81d0-41eceedb1838 |  query: {}, params: {}
+info: GET /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks/d7f3944f-eb30-4c9f-b76b-73702d1e12be |  query: {}, params: {}
+info: GET /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks/8d7bbbcb-9d94-4102-be6c-91d401454f96 |  query: {}, params: {}
+info: GET /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks/b0b6b9e9-4810-4489-a648-b5ffb9557e7a |  query: {}, params: {}
+info: GET /boards/c37fcb5a-e08b-4ae1-8926-bee7e7dcb815/tasks/e1019303-fb46-4840-90f8-5efb589887eb |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/4f0b7506-b615-4df9-a21c-1f270489d30f |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/689644d9-3be4-4344-9234-aa6410578a49 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/cbe86c47-7b55-4dcd-9165-d4793ac11848 |  query: {}, params: {"id":"cbe86c47-7b55-4dcd-9165-d4793ac11848","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/cbe86c47-7b55-4dcd-9165-d4793ac11848 |  query: {}, params: {}
+info: DELETE /boards/cbe86c47-7b55-4dcd-9165-d4793ac11848 |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/4f0b7506-b615-4df9-a21c-1f270489d30f |  query: {}, params: {}
+info: GET /boards/4f0b7506-b615-4df9-a21c-1f270489d30f |  query: {}, params: {}
+error: GET, /boards/4f0b7506-b615-4df9-a21c-1f270489d30f, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"20d0adfa-9fb2-4489-aa8f-2079e00567e7","userId":null,"columnId":null}
+info: POST /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"20d0adfa-9fb2-4489-aa8f-2079e00567e7","userId":null,"columnId":null}
+info: POST /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"20d0adfa-9fb2-4489-aa8f-2079e00567e7","userId":null,"columnId":null}
+info: POST /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"20d0adfa-9fb2-4489-aa8f-2079e00567e7","userId":null,"columnId":null}
+info: POST /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"20d0adfa-9fb2-4489-aa8f-2079e00567e7","userId":null,"columnId":null}
+info: GET /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks/ee58f08c-f319-466e-aa0c-7ea63349fe9d |  query: {}, params: {}
+info: GET /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks/ee83d745-e6fb-4fe4-99b9-364e7e79e91e |  query: {}, params: {}
+info: GET /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks/2a3db06a-07b2-4613-ad21-1841839a1d88 |  query: {}, params: {}
+info: GET /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks/f016a6d4-bac3-42eb-a414-f2475d858d51 |  query: {}, params: {}
+info: GET /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks/663d04f7-d3d6-48d3-b93f-ae084bbb2db9 |  query: {}, params: {}
+info: DELETE /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7 |  query: {}, params: {}
+info: GET /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks/ee58f08c-f319-466e-aa0c-7ea63349fe9d |  query: {}, params: {}
+info: GET /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks/663d04f7-d3d6-48d3-b93f-ae084bbb2db9 |  query: {}, params: {}
+info: GET /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks/ee83d745-e6fb-4fe4-99b9-364e7e79e91e |  query: {}, params: {}
+info: GET /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks/2a3db06a-07b2-4613-ad21-1841839a1d88 |  query: {}, params: {}
+info: GET /boards/20d0adfa-9fb2-4489-aa8f-2079e00567e7/tasks/f016a6d4-bac3-42eb-a414-f2475d858d51 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/0db3204a-2bb3-413d-97f0-eb5bcedb6a2b |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/593807ca-1ec1-48dd-a83c-f05b21f19526 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/26cdfc0e-9865-4984-b27a-5e5d29c902c3 |  query: {}, params: {"id":"26cdfc0e-9865-4984-b27a-5e5d29c902c3","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/26cdfc0e-9865-4984-b27a-5e5d29c902c3 |  query: {}, params: {}
+info: DELETE /boards/26cdfc0e-9865-4984-b27a-5e5d29c902c3 |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/0db3204a-2bb3-413d-97f0-eb5bcedb6a2b |  query: {}, params: {}
+info: GET /boards/0db3204a-2bb3-413d-97f0-eb5bcedb6a2b |  query: {}, params: {}
+error: GET, /boards/0db3204a-2bb3-413d-97f0-eb5bcedb6a2b, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"63867e63-7877-41f3-9ba4-1395fc3c4eea","userId":null,"columnId":null}
+info: POST /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"63867e63-7877-41f3-9ba4-1395fc3c4eea","userId":null,"columnId":null}
+info: POST /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"63867e63-7877-41f3-9ba4-1395fc3c4eea","userId":null,"columnId":null}
+info: POST /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"63867e63-7877-41f3-9ba4-1395fc3c4eea","userId":null,"columnId":null}
+info: POST /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"63867e63-7877-41f3-9ba4-1395fc3c4eea","userId":null,"columnId":null}
+info: GET /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks/2922c35e-e7c5-4fc6-a6c5-42919c157165 |  query: {}, params: {}
+info: GET /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks/28156d6f-fd73-45e2-ac55-38ed77164313 |  query: {}, params: {}
+info: GET /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks/db1e0ee3-9c89-4c94-a25a-01ffbc76623b |  query: {}, params: {}
+info: GET /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks/380f73f3-0fd2-4e40-9dfc-d19859d27042 |  query: {}, params: {}
+info: GET /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks/d7e3c61d-6630-49e8-b95e-7346b0372285 |  query: {}, params: {}
+info: DELETE /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea |  query: {}, params: {}
+info: GET /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks/db1e0ee3-9c89-4c94-a25a-01ffbc76623b |  query: {}, params: {}
+info: GET /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks/2922c35e-e7c5-4fc6-a6c5-42919c157165 |  query: {}, params: {}
+info: GET /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks/380f73f3-0fd2-4e40-9dfc-d19859d27042 |  query: {}, params: {}
+info: GET /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks/d7e3c61d-6630-49e8-b95e-7346b0372285 |  query: {}, params: {}
+info: GET /boards/63867e63-7877-41f3-9ba4-1395fc3c4eea/tasks/28156d6f-fd73-45e2-ac55-38ed77164313 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/31cc1530-1ec2-46a2-af6c-4f98d531dd02 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/f52dd0ce-bd94-407a-8510-45e05300059d |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/fbe32a30-382d-4c54-8da9-b9b413da9cb5 |  query: {}, params: {"id":"fbe32a30-382d-4c54-8da9-b9b413da9cb5","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/fbe32a30-382d-4c54-8da9-b9b413da9cb5 |  query: {}, params: {}
+info: DELETE /boards/fbe32a30-382d-4c54-8da9-b9b413da9cb5 |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/31cc1530-1ec2-46a2-af6c-4f98d531dd02 |  query: {}, params: {}
+info: GET /boards/31cc1530-1ec2-46a2-af6c-4f98d531dd02 |  query: {}, params: {}
+error: GET, /boards/31cc1530-1ec2-46a2-af6c-4f98d531dd02, status: 500, error: Cannot read property '_id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/065c2e74-9774-4824-ae92-899acb581378/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"065c2e74-9774-4824-ae92-899acb581378","userId":null,"columnId":null}
+info: POST /boards/065c2e74-9774-4824-ae92-899acb581378/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"065c2e74-9774-4824-ae92-899acb581378","userId":null,"columnId":null}
+info: POST /boards/065c2e74-9774-4824-ae92-899acb581378/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"065c2e74-9774-4824-ae92-899acb581378","userId":null,"columnId":null}
+info: POST /boards/065c2e74-9774-4824-ae92-899acb581378/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"065c2e74-9774-4824-ae92-899acb581378","userId":null,"columnId":null}
+info: POST /boards/065c2e74-9774-4824-ae92-899acb581378/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"065c2e74-9774-4824-ae92-899acb581378","userId":null,"columnId":null}
+info: GET /boards/065c2e74-9774-4824-ae92-899acb581378/tasks/f336a5c2-1131-4624-b5fe-e553145c7e40 |  query: {}, params: {}
+info: GET /boards/065c2e74-9774-4824-ae92-899acb581378/tasks/47003771-df1d-43f2-ad05-e3e88e1e2167 |  query: {}, params: {}
+info: GET /boards/065c2e74-9774-4824-ae92-899acb581378/tasks/4a7779af-b60c-44a4-b393-1e5ea230280c |  query: {}, params: {}
+info: GET /boards/065c2e74-9774-4824-ae92-899acb581378/tasks/f5a7425c-8a35-45e3-9ac2-17ff88defba8 |  query: {}, params: {}
+info: GET /boards/065c2e74-9774-4824-ae92-899acb581378/tasks/5d147376-8fd7-43c7-93f7-d4e342c1233e |  query: {}, params: {}
+info: DELETE /boards/065c2e74-9774-4824-ae92-899acb581378 |  query: {}, params: {}
+info: GET /boards/065c2e74-9774-4824-ae92-899acb581378/tasks/47003771-df1d-43f2-ad05-e3e88e1e2167 |  query: {}, params: {}
+info: GET /boards/065c2e74-9774-4824-ae92-899acb581378/tasks/4a7779af-b60c-44a4-b393-1e5ea230280c |  query: {}, params: {}
+info: GET /boards/065c2e74-9774-4824-ae92-899acb581378/tasks/f336a5c2-1131-4624-b5fe-e553145c7e40 |  query: {}, params: {}
+info: GET /boards/065c2e74-9774-4824-ae92-899acb581378/tasks/f5a7425c-8a35-45e3-9ac2-17ff88defba8 |  query: {}, params: {}
+info: GET /boards/065c2e74-9774-4824-ae92-899acb581378/tasks/5d147376-8fd7-43c7-93f7-d4e342c1233e |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/099248e1-d4dc-4efa-a344-4b767a7fb778 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/26c1f184-7705-446f-ad86-16b6a6a383ff |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/1351b516-cda0-421c-b915-00e6aec9b36e |  query: {}, params: {"id":"1351b516-cda0-421c-b915-00e6aec9b36e","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/1351b516-cda0-421c-b915-00e6aec9b36e |  query: {}, params: {}
+info: DELETE /boards/1351b516-cda0-421c-b915-00e6aec9b36e |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/099248e1-d4dc-4efa-a344-4b767a7fb778 |  query: {}, params: {}
+info: GET /boards/099248e1-d4dc-4efa-a344-4b767a7fb778 |  query: {}, params: {}
+error: GET, /boards/099248e1-d4dc-4efa-a344-4b767a7fb778, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"bf10261c-cb9b-4682-8486-7a087ea1ebc8","userId":null,"columnId":null}
+info: POST /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"bf10261c-cb9b-4682-8486-7a087ea1ebc8","userId":null,"columnId":null}
+info: POST /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"bf10261c-cb9b-4682-8486-7a087ea1ebc8","userId":null,"columnId":null}
+info: POST /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"bf10261c-cb9b-4682-8486-7a087ea1ebc8","userId":null,"columnId":null}
+info: POST /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"bf10261c-cb9b-4682-8486-7a087ea1ebc8","userId":null,"columnId":null}
+info: GET /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks/778d6e2a-e892-4731-8ae0-aa6a81142b31 |  query: {}, params: {}
+info: GET /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks/d7f873ff-cd2e-4729-93d2-39c0e288955e |  query: {}, params: {}
+info: GET /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks/e94dc002-89e4-40ca-9384-cae10d1aed3e |  query: {}, params: {}
+info: GET /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks/0e9c28aa-cf9b-4e75-b18d-c2238444a4ed |  query: {}, params: {}
+info: GET /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks/d84e5303-b20b-4166-ad87-ce7c9d8e2ed2 |  query: {}, params: {}
+info: DELETE /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8 |  query: {}, params: {}
+info: GET /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks/e94dc002-89e4-40ca-9384-cae10d1aed3e |  query: {}, params: {}
+info: GET /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks/0e9c28aa-cf9b-4e75-b18d-c2238444a4ed |  query: {}, params: {}
+info: GET /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks/778d6e2a-e892-4731-8ae0-aa6a81142b31 |  query: {}, params: {}
+info: GET /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks/d7f873ff-cd2e-4729-93d2-39c0e288955e |  query: {}, params: {}
+info: GET /boards/bf10261c-cb9b-4682-8486-7a087ea1ebc8/tasks/d84e5303-b20b-4166-ad87-ce7c9d8e2ed2 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/f4ffcd53-c0cc-4211-bce8-5f513ee41961 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/9b24de8c-63d5-4f4c-925c-b82ecc448209 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/4ef983f7-0c4e-44f0-8c80-30488b6529a6 |  query: {}, params: {"id":"4ef983f7-0c4e-44f0-8c80-30488b6529a6","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/4ef983f7-0c4e-44f0-8c80-30488b6529a6 |  query: {}, params: {}
+info: DELETE /boards/4ef983f7-0c4e-44f0-8c80-30488b6529a6 |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/f4ffcd53-c0cc-4211-bce8-5f513ee41961 |  query: {}, params: {}
+info: GET /boards/f4ffcd53-c0cc-4211-bce8-5f513ee41961 |  query: {}, params: {}
+error: Unhandled Rejection at promice by reason: TypeError: console is not a function
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"7a9da73e-dea7-4d72-9c0a-248477593387","userId":null,"columnId":null}
+info: POST /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"7a9da73e-dea7-4d72-9c0a-248477593387","userId":null,"columnId":null}
+info: POST /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"7a9da73e-dea7-4d72-9c0a-248477593387","userId":null,"columnId":null}
+info: POST /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"7a9da73e-dea7-4d72-9c0a-248477593387","userId":null,"columnId":null}
+info: POST /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"7a9da73e-dea7-4d72-9c0a-248477593387","userId":null,"columnId":null}
+info: GET /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks/5d83e35a-6276-4974-826a-56f5f2e6f91c |  query: {}, params: {}
+info: GET /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks/5e4f62e9-dc23-40dd-b5ed-2bbbcb6373e2 |  query: {}, params: {}
+info: GET /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks/4bb5ae05-a9c0-48d5-8afa-f77ec6890aae |  query: {}, params: {}
+info: GET /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks/3a262340-68ae-4270-acc4-017da8a962f5 |  query: {}, params: {}
+info: GET /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks/4ca1ff94-e4c7-427f-811a-9f1596bd7cb8 |  query: {}, params: {}
+info: DELETE /boards/7a9da73e-dea7-4d72-9c0a-248477593387 |  query: {}, params: {}
+info: GET /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks/5d83e35a-6276-4974-826a-56f5f2e6f91c |  query: {}, params: {}
+info: GET /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks/5e4f62e9-dc23-40dd-b5ed-2bbbcb6373e2 |  query: {}, params: {}
+info: GET /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks/4ca1ff94-e4c7-427f-811a-9f1596bd7cb8 |  query: {}, params: {}
+info: GET /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks/4bb5ae05-a9c0-48d5-8afa-f77ec6890aae |  query: {}, params: {}
+info: GET /boards/7a9da73e-dea7-4d72-9c0a-248477593387/tasks/3a262340-68ae-4270-acc4-017da8a962f5 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/1e59c20f-14b4-4cd3-8a59-254ad72db16b |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/9ee00b8d-c63d-418c-9f1b-4a40c09e6f5e |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/6309fe81-0a5c-4443-9936-7a0eedcabb2b |  query: {}, params: {"id":"6309fe81-0a5c-4443-9936-7a0eedcabb2b","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/6309fe81-0a5c-4443-9936-7a0eedcabb2b |  query: {}, params: {}
+info: DELETE /boards/6309fe81-0a5c-4443-9936-7a0eedcabb2b |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/1e59c20f-14b4-4cd3-8a59-254ad72db16b |  query: {}, params: {}
+info: GET /boards/1e59c20f-14b4-4cd3-8a59-254ad72db16b |  query: {}, params: {}
+error: Unhandled Rejection at promice by reason: TypeError: console is not a function
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"03b1be12-0367-4322-9f77-9e5f5b1ed704","userId":null,"columnId":null}
+info: POST /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"03b1be12-0367-4322-9f77-9e5f5b1ed704","userId":null,"columnId":null}
+info: POST /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"03b1be12-0367-4322-9f77-9e5f5b1ed704","userId":null,"columnId":null}
+info: POST /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"03b1be12-0367-4322-9f77-9e5f5b1ed704","userId":null,"columnId":null}
+info: POST /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"03b1be12-0367-4322-9f77-9e5f5b1ed704","userId":null,"columnId":null}
+info: GET /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks/97837f9a-91b3-4fc7-8cb6-766323687e42 |  query: {}, params: {}
+info: GET /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks/8af01386-6ef9-400c-b26b-774f93338fd8 |  query: {}, params: {}
+info: GET /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks/4bdd47a2-9af2-4df6-8cf4-b9313a792e7d |  query: {}, params: {}
+info: GET /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks/3be71d25-b809-4765-9d44-6d5bd55947ca |  query: {}, params: {}
+info: GET /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks/8a4dc15d-a043-4ef5-9276-7b39aeba89a3 |  query: {}, params: {}
+info: DELETE /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704 |  query: {}, params: {}
+info: GET /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks/97837f9a-91b3-4fc7-8cb6-766323687e42 |  query: {}, params: {}
+info: GET /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks/8af01386-6ef9-400c-b26b-774f93338fd8 |  query: {}, params: {}
+info: GET /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks/3be71d25-b809-4765-9d44-6d5bd55947ca |  query: {}, params: {}
+info: GET /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks/8a4dc15d-a043-4ef5-9276-7b39aeba89a3 |  query: {}, params: {}
+info: GET /boards/03b1be12-0367-4322-9f77-9e5f5b1ed704/tasks/4bdd47a2-9af2-4df6-8cf4-b9313a792e7d |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/cf49f561-4076-4973-ae56-3b3d4cc5ca45 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/d34f372e-5ed9-4ae4-9d55-4fc692972182 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/1fd8634d-8685-4f06-ae36-1281b3822a61 |  query: {}, params: {"id":"1fd8634d-8685-4f06-ae36-1281b3822a61","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/1fd8634d-8685-4f06-ae36-1281b3822a61 |  query: {}, params: {}
+info: DELETE /boards/1fd8634d-8685-4f06-ae36-1281b3822a61 |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/cf49f561-4076-4973-ae56-3b3d4cc5ca45 |  query: {}, params: {}
+info: GET /boards/cf49f561-4076-4973-ae56-3b3d4cc5ca45 |  query: {}, params: {}
+error: GET, /boards/cf49f561-4076-4973-ae56-3b3d4cc5ca45, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"2ce377fb-4e07-4cbc-be25-f64209cbb456","userId":null,"columnId":null}
+info: POST /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"2ce377fb-4e07-4cbc-be25-f64209cbb456","userId":null,"columnId":null}
+info: POST /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"2ce377fb-4e07-4cbc-be25-f64209cbb456","userId":null,"columnId":null}
+info: POST /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"2ce377fb-4e07-4cbc-be25-f64209cbb456","userId":null,"columnId":null}
+info: POST /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"2ce377fb-4e07-4cbc-be25-f64209cbb456","userId":null,"columnId":null}
+info: GET /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks/83cfbc42-3c0c-49c7-ba09-3a3c7b9d47cd |  query: {}, params: {}
+info: GET /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks/8c15b9e3-da83-457e-a528-856bc14aea27 |  query: {}, params: {}
+info: GET /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks/3fcc75c3-2f45-49e3-836a-71f8366c2750 |  query: {}, params: {}
+info: GET /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks/dff1008d-37ce-47f7-b443-f9fae2b423be |  query: {}, params: {}
+info: GET /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks/2bf316a8-f07d-421e-a569-5f8a91337dec |  query: {}, params: {}
+info: DELETE /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456 |  query: {}, params: {}
+info: GET /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks/8c15b9e3-da83-457e-a528-856bc14aea27 |  query: {}, params: {}
+info: GET /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks/dff1008d-37ce-47f7-b443-f9fae2b423be |  query: {}, params: {}
+info: GET /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks/83cfbc42-3c0c-49c7-ba09-3a3c7b9d47cd |  query: {}, params: {}
+info: GET /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks/3fcc75c3-2f45-49e3-836a-71f8366c2750 |  query: {}, params: {}
+info: GET /boards/2ce377fb-4e07-4cbc-be25-f64209cbb456/tasks/2bf316a8-f07d-421e-a569-5f8a91337dec |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/33299e54-737c-40b2-8202-7ede36d85da1 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/ad02cbe7-06d7-4144-9055-848e3711a35e |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/471951eb-bf6e-46fe-a807-abe0d9f3dc9a |  query: {}, params: {"id":"471951eb-bf6e-46fe-a807-abe0d9f3dc9a","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/471951eb-bf6e-46fe-a807-abe0d9f3dc9a |  query: {}, params: {}
+info: DELETE /boards/471951eb-bf6e-46fe-a807-abe0d9f3dc9a |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/33299e54-737c-40b2-8202-7ede36d85da1 |  query: {}, params: {}
+info: GET /boards/33299e54-737c-40b2-8202-7ede36d85da1 |  query: {}, params: {}
+error: GET, /boards/33299e54-737c-40b2-8202-7ede36d85da1, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"57fb6bc4-07e8-4526-a802-cea35a2f39c2","userId":null,"columnId":null}
+info: POST /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"57fb6bc4-07e8-4526-a802-cea35a2f39c2","userId":null,"columnId":null}
+info: POST /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"57fb6bc4-07e8-4526-a802-cea35a2f39c2","userId":null,"columnId":null}
+info: POST /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"57fb6bc4-07e8-4526-a802-cea35a2f39c2","userId":null,"columnId":null}
+info: POST /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"57fb6bc4-07e8-4526-a802-cea35a2f39c2","userId":null,"columnId":null}
+info: GET /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks/31f0854c-c9b5-4058-8073-aefd14de7229 |  query: {}, params: {}
+info: GET /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks/a7723a00-1cec-4cdc-b66d-946f60faa580 |  query: {}, params: {}
+info: GET /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks/01ef8b39-cd32-49a5-8d40-9bb977e4413d |  query: {}, params: {}
+info: GET /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks/2b96c24e-8e25-4f08-bc88-6ed73fbdd602 |  query: {}, params: {}
+info: GET /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks/0837ca40-6f4f-44e2-b14f-59e5a38750c4 |  query: {}, params: {}
+info: DELETE /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2 |  query: {}, params: {}
+info: GET /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks/31f0854c-c9b5-4058-8073-aefd14de7229 |  query: {}, params: {}
+info: GET /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks/a7723a00-1cec-4cdc-b66d-946f60faa580 |  query: {}, params: {}
+info: GET /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks/01ef8b39-cd32-49a5-8d40-9bb977e4413d |  query: {}, params: {}
+info: GET /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks/2b96c24e-8e25-4f08-bc88-6ed73fbdd602 |  query: {}, params: {}
+info: GET /boards/57fb6bc4-07e8-4526-a802-cea35a2f39c2/tasks/0837ca40-6f4f-44e2-b14f-59e5a38750c4 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/58092910-5c31-4449-9f2e-ae15cd185ad6 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/72fe506d-861c-47dc-8da8-adce8e959792 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/ee9e2b7f-fa34-457b-8c5b-1a86ce245fe1 |  query: {}, params: {"id":"ee9e2b7f-fa34-457b-8c5b-1a86ce245fe1","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/ee9e2b7f-fa34-457b-8c5b-1a86ce245fe1 |  query: {}, params: {}
+info: DELETE /boards/ee9e2b7f-fa34-457b-8c5b-1a86ce245fe1 |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/58092910-5c31-4449-9f2e-ae15cd185ad6 |  query: {}, params: {}
+info: GET /boards/58092910-5c31-4449-9f2e-ae15cd185ad6 |  query: {}, params: {}
+error: GET, /boards/58092910-5c31-4449-9f2e-ae15cd185ad6, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"f1220ea0-fc33-41be-8893-2aaac16b9e9f","userId":null,"columnId":null}
+info: POST /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"f1220ea0-fc33-41be-8893-2aaac16b9e9f","userId":null,"columnId":null}
+info: POST /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"f1220ea0-fc33-41be-8893-2aaac16b9e9f","userId":null,"columnId":null}
+info: POST /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"f1220ea0-fc33-41be-8893-2aaac16b9e9f","userId":null,"columnId":null}
+info: POST /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"f1220ea0-fc33-41be-8893-2aaac16b9e9f","userId":null,"columnId":null}
+info: GET /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks/60c831a9-e213-4ff0-87f4-8bffe99e4b1f |  query: {}, params: {}
+info: GET /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks/e035fd1e-cc7e-4cf6-ae7d-696e59c9c8e4 |  query: {}, params: {}
+info: GET /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks/de0d2651-f1d8-452f-a46e-9dacd273df4d |  query: {}, params: {}
+info: GET /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks/77e58a61-40f5-4a15-8b69-b7ad3ecdb260 |  query: {}, params: {}
+info: GET /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks/984622cf-b03f-41ef-8631-47b1b316eeb9 |  query: {}, params: {}
+info: DELETE /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f |  query: {}, params: {}
+info: GET /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks/60c831a9-e213-4ff0-87f4-8bffe99e4b1f |  query: {}, params: {}
+info: GET /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks/e035fd1e-cc7e-4cf6-ae7d-696e59c9c8e4 |  query: {}, params: {}
+info: GET /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks/de0d2651-f1d8-452f-a46e-9dacd273df4d |  query: {}, params: {}
+info: GET /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks/77e58a61-40f5-4a15-8b69-b7ad3ecdb260 |  query: {}, params: {}
+info: GET /boards/f1220ea0-fc33-41be-8893-2aaac16b9e9f/tasks/984622cf-b03f-41ef-8631-47b1b316eeb9 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/22f61403-38b3-402f-8a6c-3c0a96d40195 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/235a4a41-0e9e-4bf4-8f69-87326b8f7691 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/6109ddbd-62ae-4002-8662-14029ea670fc |  query: {}, params: {"id":"6109ddbd-62ae-4002-8662-14029ea670fc","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/6109ddbd-62ae-4002-8662-14029ea670fc |  query: {}, params: {}
+info: DELETE /boards/6109ddbd-62ae-4002-8662-14029ea670fc |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/22f61403-38b3-402f-8a6c-3c0a96d40195 |  query: {}, params: {}
+info: GET /boards/22f61403-38b3-402f-8a6c-3c0a96d40195 |  query: {}, params: {}
+error: GET, /boards/22f61403-38b3-402f-8a6c-3c0a96d40195, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"8a0478ef-8447-4bd6-bd41-5024bf0de5ec","userId":null,"columnId":null}
+info: POST /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"8a0478ef-8447-4bd6-bd41-5024bf0de5ec","userId":null,"columnId":null}
+info: POST /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"8a0478ef-8447-4bd6-bd41-5024bf0de5ec","userId":null,"columnId":null}
+info: POST /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"8a0478ef-8447-4bd6-bd41-5024bf0de5ec","userId":null,"columnId":null}
+info: POST /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"8a0478ef-8447-4bd6-bd41-5024bf0de5ec","userId":null,"columnId":null}
+info: GET /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks/8347b19b-a0da-4915-bf7e-8788bc24523d |  query: {}, params: {}
+info: GET /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks/7fffed33-a20c-470f-ba05-ba9a2d50eb97 |  query: {}, params: {}
+info: GET /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks/416e850c-e967-4431-bc32-4c9a4162263e |  query: {}, params: {}
+info: GET /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks/db6c7d99-9c9d-4e1b-9890-e91a5e15dc75 |  query: {}, params: {}
+info: GET /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks/a5033235-5856-4ca3-9b34-b6a83fcd91b8 |  query: {}, params: {}
+info: DELETE /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec |  query: {}, params: {}
+info: GET /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks/8347b19b-a0da-4915-bf7e-8788bc24523d |  query: {}, params: {}
+info: GET /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks/7fffed33-a20c-470f-ba05-ba9a2d50eb97 |  query: {}, params: {}
+info: GET /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks/416e850c-e967-4431-bc32-4c9a4162263e |  query: {}, params: {}
+info: GET /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks/a5033235-5856-4ca3-9b34-b6a83fcd91b8 |  query: {}, params: {}
+info: GET /boards/8a0478ef-8447-4bd6-bd41-5024bf0de5ec/tasks/db6c7d99-9c9d-4e1b-9890-e91a5e15dc75 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/bd05928f-efe5-4c64-846b-ee429674e438 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/5cc9051c-b1b5-4d06-ad93-58c07cf04803 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /boards/0170fbcb-63a9-441c-813f-2873bd0a9040 |  query: {}, params: {"id":"0170fbcb-63a9-441c-813f-2873bd0a9040","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/0170fbcb-63a9-441c-813f-2873bd0a9040 |  query: {}, params: {}
+info: DELETE /boards/0170fbcb-63a9-441c-813f-2873bd0a9040 |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/bd05928f-efe5-4c64-846b-ee429674e438 |  query: {}, params: {}
+info: GET /boards/bd05928f-efe5-4c64-846b-ee429674e438 |  query: {}, params: {}
+error: GET, /boards/bd05928f-efe5-4c64-846b-ee429674e438, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"d6c7ce23-4de2-4915-9f89-ba65734065a4","userId":null,"columnId":null}
+info: POST /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"d6c7ce23-4de2-4915-9f89-ba65734065a4","userId":null,"columnId":null}
+info: POST /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"d6c7ce23-4de2-4915-9f89-ba65734065a4","userId":null,"columnId":null}
+info: POST /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"d6c7ce23-4de2-4915-9f89-ba65734065a4","userId":null,"columnId":null}
+info: POST /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"d6c7ce23-4de2-4915-9f89-ba65734065a4","userId":null,"columnId":null}
+info: GET /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks/63048cef-e5fc-414f-8361-63a53a66e68e |  query: {}, params: {}
+info: GET /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks/dfee812f-aa4b-4f42-a1c3-4dd0f15a0583 |  query: {}, params: {}
+info: GET /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks/2d67c5a4-7b5d-4570-9d52-55e2743569d7 |  query: {}, params: {}
+info: GET /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks/0479ba70-c5f7-4b84-b64c-a30aa4d89b99 |  query: {}, params: {}
+info: GET /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks/21ae4df9-8697-4711-a4e7-7bba98dadafc |  query: {}, params: {}
+info: DELETE /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4 |  query: {}, params: {}
+info: GET /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks/63048cef-e5fc-414f-8361-63a53a66e68e |  query: {}, params: {}
+info: GET /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks/dfee812f-aa4b-4f42-a1c3-4dd0f15a0583 |  query: {}, params: {}
+info: GET /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks/21ae4df9-8697-4711-a4e7-7bba98dadafc |  query: {}, params: {}
+info: GET /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks/2d67c5a4-7b5d-4570-9d52-55e2743569d7 |  query: {}, params: {}
+info: GET /boards/d6c7ce23-4de2-4915-9f89-ba65734065a4/tasks/0479ba70-c5f7-4b84-b64c-a30aa4d89b99 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/25be1ada-8782-47d3-813f-431e9b5ab360 |  query: {}, params: {}
+info: GET /boards/25be1ada-8782-47d3-813f-431e9b5ab360 |  query: {}, params: {}
+error: GET, /boards/25be1ada-8782-47d3-813f-431e9b5ab360, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"196c74df-7342-4801-8d8d-e6f23403d434","userId":null,"columnId":null}
+info: POST /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"196c74df-7342-4801-8d8d-e6f23403d434","userId":null,"columnId":null}
+info: POST /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"196c74df-7342-4801-8d8d-e6f23403d434","userId":null,"columnId":null}
+info: POST /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"196c74df-7342-4801-8d8d-e6f23403d434","userId":null,"columnId":null}
+info: POST /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"196c74df-7342-4801-8d8d-e6f23403d434","userId":null,"columnId":null}
+info: GET /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks/6a9bed34-94ae-424c-b652-2262da95e300 |  query: {}, params: {}
+info: GET /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks/114b45a8-db44-460e-9472-f939d3b576fe |  query: {}, params: {}
+info: GET /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks/b0919957-689c-4678-a746-dbe0851cc710 |  query: {}, params: {}
+info: GET /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks/bb03aefc-b870-4a38-ac6f-0b6da9806660 |  query: {}, params: {}
+info: GET /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks/99ccdbf9-15b8-4e63-8054-046b02ed76de |  query: {}, params: {}
+info: DELETE /boards/196c74df-7342-4801-8d8d-e6f23403d434 |  query: {}, params: {}
+info: GET /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks/6a9bed34-94ae-424c-b652-2262da95e300 |  query: {}, params: {}
+info: GET /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks/99ccdbf9-15b8-4e63-8054-046b02ed76de |  query: {}, params: {}
+info: GET /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks/b0919957-689c-4678-a746-dbe0851cc710 |  query: {}, params: {}
+info: GET /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks/bb03aefc-b870-4a38-ac6f-0b6da9806660 |  query: {}, params: {}
+info: GET /boards/196c74df-7342-4801-8d8d-e6f23403d434/tasks/114b45a8-db44-460e-9472-f939d3b576fe |  query: {}, params: {}
+info: GET /boards/1 |  query: {}, params: {}
+error: GET, /boards/1, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+info: GET /boards/1 |  query: {}, params: {}
+error: GET, /boards/1, status: 404, error: Task not found, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/b487ad58-5912-4a6d-9ee8-cfbacd64b5d5 |  query: {}, params: {}
+info: GET /boards/b487ad58-5912-4a6d-9ee8-cfbacd64b5d5 |  query: {}, params: {}
+error: GET, /boards/b487ad58-5912-4a6d-9ee8-cfbacd64b5d5, status: 404, error: Task not found, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"70a35377-d8e8-4cd2-87ad-df9d3ea06229","userId":null,"columnId":null}
+info: POST /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"70a35377-d8e8-4cd2-87ad-df9d3ea06229","userId":null,"columnId":null}
+info: POST /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"70a35377-d8e8-4cd2-87ad-df9d3ea06229","userId":null,"columnId":null}
+info: POST /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"70a35377-d8e8-4cd2-87ad-df9d3ea06229","userId":null,"columnId":null}
+info: POST /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"70a35377-d8e8-4cd2-87ad-df9d3ea06229","userId":null,"columnId":null}
+info: GET /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks/88f4f968-021b-4893-987d-0d8431f408da |  query: {}, params: {}
+info: GET /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks/5f01173e-b301-4dac-b702-bfe7a666b5d8 |  query: {}, params: {}
+info: GET /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks/d30adebb-f8a2-411f-815f-99996f35f715 |  query: {}, params: {}
+info: GET /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks/4bd1dff5-0737-4774-bd9d-dde02b24d8d0 |  query: {}, params: {}
+info: GET /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks/75721d9c-eeda-4137-a42b-5cb0b49267be |  query: {}, params: {}
+info: DELETE /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229 |  query: {}, params: {}
+info: GET /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks/88f4f968-021b-4893-987d-0d8431f408da |  query: {}, params: {}
+info: GET /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks/5f01173e-b301-4dac-b702-bfe7a666b5d8 |  query: {}, params: {}
+info: GET /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks/d30adebb-f8a2-411f-815f-99996f35f715 |  query: {}, params: {}
+info: GET /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks/4bd1dff5-0737-4774-bd9d-dde02b24d8d0 |  query: {}, params: {}
+info: GET /boards/70a35377-d8e8-4cd2-87ad-df9d3ea06229/tasks/75721d9c-eeda-4137-a42b-5cb0b49267be |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/5cdd456e-7e05-424d-bb83-48df16000d36 |  query: {}, params: {}
+info: GET /boards/5cdd456e-7e05-424d-bb83-48df16000d36 |  query: {}, params: {}
+error: GET, /boards/5cdd456e-7e05-424d-bb83-48df16000d36, status: 404, error: Task not found, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab","userId":null,"columnId":null}
+info: POST /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab","userId":null,"columnId":null}
+info: POST /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab","userId":null,"columnId":null}
+info: POST /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab","userId":null,"columnId":null}
+info: POST /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab","userId":null,"columnId":null}
+info: GET /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks/f2e4d761-26cd-4f70-ac88-7ef3f9e238d1 |  query: {}, params: {}
+info: GET /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks/2bb50020-982e-4eb0-b8ea-f84a9aeb842e |  query: {}, params: {}
+info: GET /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks/fba98279-2f7f-4748-855f-45f19cf30c42 |  query: {}, params: {}
+info: GET /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks/004013f3-86e5-4a1e-b46b-36bd67867424 |  query: {}, params: {}
+info: GET /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks/e5856355-47ff-4a86-ad17-3cc5cba59ed1 |  query: {}, params: {}
+info: DELETE /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab |  query: {}, params: {}
+info: GET /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks/f2e4d761-26cd-4f70-ac88-7ef3f9e238d1 |  query: {}, params: {}
+info: GET /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks/2bb50020-982e-4eb0-b8ea-f84a9aeb842e |  query: {}, params: {}
+info: GET /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks/fba98279-2f7f-4748-855f-45f19cf30c42 |  query: {}, params: {}
+info: GET /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks/004013f3-86e5-4a1e-b46b-36bd67867424 |  query: {}, params: {}
+info: GET /boards/26c06cf9-bf3c-4e58-aeaa-6e320aa0d7ab/tasks/e5856355-47ff-4a86-ad17-3cc5cba59ed1 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: GET /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks |  query: {}, params: {}
+info: GET /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks |  query: {}, params: {}
+info: GET /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks/e59b7d25-36f9-4fa4-aa87-bbef7c622d8f |  query: {}, params: {}
+info: POST /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: POST /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: PUT /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks/e81d15f2-c617-4a38-beb9-accf34ba587b |  query: {}, params: {"id":"e81d15f2-c617-4a38-beb9-accf34ba587b","title":"Autotest updated task","order":"0","description":"Lorem ipsum","userId":null,"boardId":"91770664-182c-4cd5-9824-4ebd048daba9","columnId":null}
+info: GET /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks/e81d15f2-c617-4a38-beb9-accf34ba587b |  query: {}, params: {}
+info: GET /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks/e59b7d25-36f9-4fa4-aa87-bbef7c622d8f |  query: {}, params: {}
+info: DELETE /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks/e59b7d25-36f9-4fa4-aa87-bbef7c622d8f |  query: {}, params: {}
+info: GET /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks/e59b7d25-36f9-4fa4-aa87-bbef7c622d8f |  query: {}, params: {}
+error: GET, /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks/e59b7d25-36f9-4fa4-aa87-bbef7c622d8f, status: 404, error: Task not found, query: {}, params: {}}
+info: DELETE /boards/91770664-182c-4cd5-9824-4ebd048daba9 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: GET /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks |  query: {}, params: {}
+info: GET /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks |  query: {}, params: {}
+info: GET /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks/dc0d97e9-52e7-42d5-b583-338e4fdbfc17 |  query: {}, params: {}
+info: POST /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: DELETE /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks/297fb618-672e-4b16-b532-e8c24670e8d4 |  query: {}, params: {}
+info: POST /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: PUT /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks/b4858210-5607-4c1f-ae27-07dbde5aae69 |  query: {}, params: {"id":"b4858210-5607-4c1f-ae27-07dbde5aae69","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"98237f52-340c-4f39-9bad-e0e7fa741cde","columnId":null}
+info: GET /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks/b4858210-5607-4c1f-ae27-07dbde5aae69 |  query: {}, params: {}
+info: GET /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks/dc0d97e9-52e7-42d5-b583-338e4fdbfc17 |  query: {}, params: {}
+info: DELETE /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks/dc0d97e9-52e7-42d5-b583-338e4fdbfc17 |  query: {}, params: {}
+info: GET /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks/dc0d97e9-52e7-42d5-b583-338e4fdbfc17 |  query: {}, params: {}
+error: GET, /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks/dc0d97e9-52e7-42d5-b583-338e4fdbfc17, status: 404, error: Task not found, query: {}, params: {}}
+info: DELETE /boards/98237f52-340c-4f39-9bad-e0e7fa741cde |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/c32144fc-37f3-4bc5-b34b-74772bf8ea55 |  query: {}, params: {}
+info: GET /boards/c32144fc-37f3-4bc5-b34b-74772bf8ea55 |  query: {}, params: {}
+error: GET, /boards/c32144fc-37f3-4bc5-b34b-74772bf8ea55, status: 404, error: Task not found, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"2945cb90-c0c9-46b1-a7ec-9be545f2a515","userId":null,"columnId":null}
+info: POST /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"2945cb90-c0c9-46b1-a7ec-9be545f2a515","userId":null,"columnId":null}
+info: POST /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"2945cb90-c0c9-46b1-a7ec-9be545f2a515","userId":null,"columnId":null}
+info: POST /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"2945cb90-c0c9-46b1-a7ec-9be545f2a515","userId":null,"columnId":null}
+info: POST /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"2945cb90-c0c9-46b1-a7ec-9be545f2a515","userId":null,"columnId":null}
+info: GET /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/679d5622-a83f-4c2d-8db4-3867701ec747 |  query: {}, params: {}
+info: GET /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/9607e154-0329-4e6b-ac77-42ff22021381 |  query: {}, params: {}
+info: GET /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/2668f073-6d8e-46fc-b25a-c22931d85252 |  query: {}, params: {}
+info: GET /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/55d7f1dc-4db7-4279-ac60-8ab4e7947d64 |  query: {}, params: {}
+info: GET /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/346a5839-9044-4d88-92d3-05c87aa29e91 |  query: {}, params: {}
+info: DELETE /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515 |  query: {}, params: {}
+info: GET /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/679d5622-a83f-4c2d-8db4-3867701ec747 |  query: {}, params: {}
+info: GET /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/55d7f1dc-4db7-4279-ac60-8ab4e7947d64 |  query: {}, params: {}
+info: GET /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/346a5839-9044-4d88-92d3-05c87aa29e91 |  query: {}, params: {}
+info: GET /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/9607e154-0329-4e6b-ac77-42ff22021381 |  query: {}, params: {}
+info: GET /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/2668f073-6d8e-46fc-b25a-c22931d85252 |  query: {}, params: {}
+error: GET, /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/679d5622-a83f-4c2d-8db4-3867701ec747, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/55d7f1dc-4db7-4279-ac60-8ab4e7947d64, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/2668f073-6d8e-46fc-b25a-c22931d85252, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/9607e154-0329-4e6b-ac77-42ff22021381, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/346a5839-9044-4d88-92d3-05c87aa29e91, status: 404, error: Task not found, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /users |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: POST /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks |  query: {}, params: {}
+info: GET /users/6b0dc172-6d8d-4be2-b1e2-956f347a3438 |  query: {}, params: {}
+info: GET /boards/fad49cdf-22eb-4bb4-809f-051f8ce63563 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks |  query: {}, params: {}
+info: DELETE /users/6b0dc172-6d8d-4be2-b1e2-956f347a3438 |  query: {}, params: {}
+info: DELETE /boards/4a773676-1f6b-4a57-9216-6435522d6a55 |  query: {}, params: {}
+info: GET /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks/1034dd9e-b76c-4fda-9961-2d8dfb95243e |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: DELETE /users/97e98a00-99d1-4095-91cd-96ee2b25f32a |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks/c8b14012-646b-441a-aa7b-4379b5731467 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /boards/d862d7e3-93a6-4549-b6c8-382dc736a791 |  query: {}, params: {"id":"d862d7e3-93a6-4549-b6c8-382dc736a791","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: PUT /users/73b0d532-8227-401d-8639-26e5f07c454e |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"73b0d532-8227-401d-8639-26e5f07c454e"}
+info: GET /boards/d862d7e3-93a6-4549-b6c8-382dc736a791 |  query: {}, params: {}
+info: PUT /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks/df4e2f45-343f-4db4-a4d5-a8f2e147477a |  query: {}, params: {"id":"df4e2f45-343f-4db4-a4d5-a8f2e147477a","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"d82b190d-0206-462c-a0ef-ce9e7c57a685","columnId":null}
+info: DELETE /boards/d862d7e3-93a6-4549-b6c8-382dc736a791 |  query: {}, params: {}
+info: GET /users/73b0d532-8227-401d-8639-26e5f07c454e |  query: {}, params: {}
+info: GET /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks/df4e2f45-343f-4db4-a4d5-a8f2e147477a |  query: {}, params: {}
+info: DELETE /users/73b0d532-8227-401d-8639-26e5f07c454e |  query: {}, params: {}
+info: GET /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks/1034dd9e-b76c-4fda-9961-2d8dfb95243e |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks/1034dd9e-b76c-4fda-9961-2d8dfb95243e |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /boards/fad49cdf-22eb-4bb4-809f-051f8ce63563 |  query: {}, params: {}
+info: GET /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks/1034dd9e-b76c-4fda-9961-2d8dfb95243e |  query: {}, params: {}
+info: DELETE /users/d126e4ac-497b-48a4-9d6f-22414f4fbd1e |  query: {}, params: {}
+error: GET, /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks/1034dd9e-b76c-4fda-9961-2d8dfb95243e, status: 404, error: Task not found, query: {}, params: {}}
+info: DELETE /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /boards/fad49cdf-22eb-4bb4-809f-051f8ce63563 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+error: GET, /boards/fad49cdf-22eb-4bb4-809f-051f8ce63563, status: 404, error: Task not found, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/b448576c-700e-4615-86a8-12c0672d1a4f/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"8617731d-3c71-4fe9-99b3-4af37b26c6ca","boardId":"b448576c-700e-4615-86a8-12c0672d1a4f"}
+info: POST /boards/b448576c-700e-4615-86a8-12c0672d1a4f/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"8617731d-3c71-4fe9-99b3-4af37b26c6ca","boardId":"b448576c-700e-4615-86a8-12c0672d1a4f"}
+info: POST /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"b98a11f8-f762-4179-9524-2315b5f10c58","userId":null,"columnId":null}
+info: POST /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"b98a11f8-f762-4179-9524-2315b5f10c58","userId":null,"columnId":null}
+info: POST /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"b98a11f8-f762-4179-9524-2315b5f10c58","userId":null,"columnId":null}
+info: POST /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"b98a11f8-f762-4179-9524-2315b5f10c58","userId":null,"columnId":null}
+info: POST /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"b98a11f8-f762-4179-9524-2315b5f10c58","userId":null,"columnId":null}
+info: DELETE /users/8617731d-3c71-4fe9-99b3-4af37b26c6ca |  query: {}, params: {}
+info: GET /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/c15f290b-7d69-461f-a0cd-453264ad12e4 |  query: {}, params: {}
+info: GET /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/0857b5d6-7ccf-49cb-af3c-dd1c7f36ef69 |  query: {}, params: {}
+info: GET /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/8594a768-6cf1-4427-a014-82e12db1c699 |  query: {}, params: {}
+info: GET /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/837bbd31-5e88-4ca7-99df-2704d5a3c16b |  query: {}, params: {}
+info: GET /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/873c03ca-7b6b-4ffc-9363-e23d1a08a99b |  query: {}, params: {}
+info: GET /boards/b448576c-700e-4615-86a8-12c0672d1a4f/tasks/9c338a9e-192e-4f39-b7c2-d4434a15d969 |  query: {}, params: {}
+info: DELETE /boards/b98a11f8-f762-4179-9524-2315b5f10c58 |  query: {}, params: {}
+info: GET /boards/b448576c-700e-4615-86a8-12c0672d1a4f/tasks/09118964-d6b4-4a53-92f6-b74ce9a3a725 |  query: {}, params: {}
+info: DELETE /boards/b448576c-700e-4615-86a8-12c0672d1a4f/tasks/9c338a9e-192e-4f39-b7c2-d4434a15d969 |  query: {}, params: {}
+info: DELETE /boards/b448576c-700e-4615-86a8-12c0672d1a4f/tasks/09118964-d6b4-4a53-92f6-b74ce9a3a725 |  query: {}, params: {}
+info: GET /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/c15f290b-7d69-461f-a0cd-453264ad12e4 |  query: {}, params: {}
+info: GET /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/8594a768-6cf1-4427-a014-82e12db1c699 |  query: {}, params: {}
+info: GET /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/837bbd31-5e88-4ca7-99df-2704d5a3c16b |  query: {}, params: {}
+info: GET /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/873c03ca-7b6b-4ffc-9363-e23d1a08a99b |  query: {}, params: {}
+info: GET /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/0857b5d6-7ccf-49cb-af3c-dd1c7f36ef69 |  query: {}, params: {}
+info: DELETE /boards/b448576c-700e-4615-86a8-12c0672d1a4f |  query: {}, params: {}
+error: GET, /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/c15f290b-7d69-461f-a0cd-453264ad12e4, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/8594a768-6cf1-4427-a014-82e12db1c699, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/837bbd31-5e88-4ca7-99df-2704d5a3c16b, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/0857b5d6-7ccf-49cb-af3c-dd1c7f36ef69, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/873c03ca-7b6b-4ffc-9363-e23d1a08a99b, status: 404, error: Task not found, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /users |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: POST /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /boards |  query: {}, params: {}
+info: GET /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks |  query: {}, params: {}
+info: GET /users/c5758b86-e54e-44be-84cf-c98f9151f22c |  query: {}, params: {}
+info: GET /boards/d8849bc0-86af-4940-aa17-5f46288169c1 |  query: {}, params: {}
+info: GET /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks |  query: {}, params: {}
+info: DELETE /users/c5758b86-e54e-44be-84cf-c98f9151f22c |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks/c0b8d63d-655f-4fe7-b15e-313c6bd241ed |  query: {}, params: {}
+info: DELETE /boards/120f413d-91ab-4f12-976b-497e21d8785d |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: DELETE /users/66b25a9e-c180-4794-8b37-e267c7cb80a0 |  query: {}, params: {}
+info: DELETE /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks/303ebce5-18a9-496f-9425-ca1135455cf6 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: PUT /boards/98c5c9cb-4c19-42fc-b627-2366cb259825 |  query: {}, params: {"id":"98c5c9cb-4c19-42fc-b627-2366cb259825","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: PUT /users/44de3d47-632a-4699-a7b7-3cf3e16bdfdf |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"44de3d47-632a-4699-a7b7-3cf3e16bdfdf"}
+info: PUT /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks/e80fd40c-a5be-46f3-9130-d874979b6942 |  query: {}, params: {"id":"e80fd40c-a5be-46f3-9130-d874979b6942","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"738eeb04-1f5b-4566-8ecf-44c73ed42007","columnId":null}
+info: GET /boards/98c5c9cb-4c19-42fc-b627-2366cb259825 |  query: {}, params: {}
+info: GET /users/44de3d47-632a-4699-a7b7-3cf3e16bdfdf |  query: {}, params: {}
+info: DELETE /boards/98c5c9cb-4c19-42fc-b627-2366cb259825 |  query: {}, params: {}
+info: GET /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks/e80fd40c-a5be-46f3-9130-d874979b6942 |  query: {}, params: {}
+info: DELETE /users/44de3d47-632a-4699-a7b7-3cf3e16bdfdf |  query: {}, params: {}
+info: GET /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks/c0b8d63d-655f-4fe7-b15e-313c6bd241ed |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks/c0b8d63d-655f-4fe7-b15e-313c6bd241ed |  query: {}, params: {}
+info: DELETE /users/eeaaf3df-2c7b-4bea-a66f-a0c6466fb3ef |  query: {}, params: {}
+info: DELETE /boards/d8849bc0-86af-4940-aa17-5f46288169c1 |  query: {}, params: {}
+info: GET /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks/c0b8d63d-655f-4fe7-b15e-313c6bd241ed |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: GET, /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks/c0b8d63d-655f-4fe7-b15e-313c6bd241ed, status: 404, error: Task not found, query: {}, params: {}}
+info: DELETE /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/d8849bc0-86af-4940-aa17-5f46288169c1 |  query: {}, params: {}
+info: POST /boards/6636bd9d-505d-4962-baff-a526f6bd84b8/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"b181edd9-cbd1-43c7-b3d1-f62ee1333c22","boardId":"6636bd9d-505d-4962-baff-a526f6bd84b8"}
+info: POST /boards/6636bd9d-505d-4962-baff-a526f6bd84b8/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"b181edd9-cbd1-43c7-b3d1-f62ee1333c22","boardId":"6636bd9d-505d-4962-baff-a526f6bd84b8"}
+error: GET, /boards/d8849bc0-86af-4940-aa17-5f46288169c1, status: 404, error: Task not found, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /users/b181edd9-cbd1-43c7-b3d1-f62ee1333c22 |  query: {}, params: {}
+info: POST /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"74a553bd-746b-4dbc-ad55-00d4de677069","userId":null,"columnId":null}
+info: POST /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"74a553bd-746b-4dbc-ad55-00d4de677069","userId":null,"columnId":null}
+info: POST /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"74a553bd-746b-4dbc-ad55-00d4de677069","userId":null,"columnId":null}
+info: POST /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"74a553bd-746b-4dbc-ad55-00d4de677069","userId":null,"columnId":null}
+info: POST /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"74a553bd-746b-4dbc-ad55-00d4de677069","userId":null,"columnId":null}
+info: GET /boards/6636bd9d-505d-4962-baff-a526f6bd84b8/tasks/eafe80db-6c2f-4a39-9350-1ae530824563 |  query: {}, params: {}
+info: GET /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/44eefdb0-07b4-46ae-a8ec-23fcd195bcf6 |  query: {}, params: {}
+info: GET /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/6fea7fab-7706-4fd0-a6ba-f2da36a0f574 |  query: {}, params: {}
+info: GET /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/129922a7-f45b-450b-bb35-e81bcac9adfd |  query: {}, params: {}
+info: GET /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/706ee011-8d21-490c-97ed-4fb9990ae70e |  query: {}, params: {}
+info: GET /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/606abccd-c42d-4793-9df2-84ce4e491e0f |  query: {}, params: {}
+info: GET /boards/6636bd9d-505d-4962-baff-a526f6bd84b8/tasks/d3941f31-432f-4f38-9b22-cab722ba23b1 |  query: {}, params: {}
+info: DELETE /boards/74a553bd-746b-4dbc-ad55-00d4de677069 |  query: {}, params: {}
+info: DELETE /boards/6636bd9d-505d-4962-baff-a526f6bd84b8/tasks/eafe80db-6c2f-4a39-9350-1ae530824563 |  query: {}, params: {}
+info: DELETE /boards/6636bd9d-505d-4962-baff-a526f6bd84b8/tasks/d3941f31-432f-4f38-9b22-cab722ba23b1 |  query: {}, params: {}
+info: DELETE /boards/6636bd9d-505d-4962-baff-a526f6bd84b8 |  query: {}, params: {}
+info: GET /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/129922a7-f45b-450b-bb35-e81bcac9adfd |  query: {}, params: {}
+info: GET /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/44eefdb0-07b4-46ae-a8ec-23fcd195bcf6 |  query: {}, params: {}
+info: GET /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/6fea7fab-7706-4fd0-a6ba-f2da36a0f574 |  query: {}, params: {}
+info: GET /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/706ee011-8d21-490c-97ed-4fb9990ae70e |  query: {}, params: {}
+info: GET /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/606abccd-c42d-4793-9df2-84ce4e491e0f |  query: {}, params: {}
+error: GET, /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/129922a7-f45b-450b-bb35-e81bcac9adfd, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/44eefdb0-07b4-46ae-a8ec-23fcd195bcf6, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/6fea7fab-7706-4fd0-a6ba-f2da36a0f574, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/706ee011-8d21-490c-97ed-4fb9990ae70e, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/606abccd-c42d-4793-9df2-84ce4e491e0f, status: 404, error: Task not found, query: {}, params: {}}

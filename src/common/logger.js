@@ -13,8 +13,8 @@ const logger = createLogger({
       filename: './logs/error_log.log',
       level: 'error',
       format: format.combine(format.uncolorize())
-    }),
-    new transports.Console()
+    })
+    // new transports.Console()
   ],
   exceptionHandlers: [
     new transports.File({ filename: './logs/exceptions.log' }),

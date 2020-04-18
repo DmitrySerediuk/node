@@ -17,12 +17,13 @@ router.route('/').get(async (req, res, next) => {
 router.route('/:id').get(async (req, res, next) => {
   try {
     const selectedBoard = await boardService.getById(req.params.id);
-    if (!selectedBoard.id) {
+    if (!selectedBoard) {
       throw new createError(NOT_FOUND, 'Task not found');
     } else {
       res.status(OK).json(Board.toResponse(selectedBoard));
     }
   } catch (err) {
+    console.log('errr');
     return next(err);
   }
 });
@@ -55,9 +56,13 @@ router.route('/:id').put(async (req, res, next) => {
 
 router.route('/:id').delete(async (req, res, next) => {
   try {
+    // const result = await boardService.remove(req.params.id);
+    // console.log(result);
     if (
       (await boardService.remove(req.params.id)) &&
       (await taskService.deleteByBoardId(req.params.id))
+      // await boardService.remove(req.params.id)
+      // result
     ) {
       res.status(NO_CONTENT).send();
     } else {

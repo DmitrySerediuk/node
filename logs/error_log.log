@@ -183,3 +183,88 @@ error: PUT, /users/641b6820-262d-46a6-87e9-bfa1304509ea, status: 400, error: Bad
 error: PUT, /users/34007fb3-3e40-4341-abfa-b8ffdd61373f, status: 500, error: User.useFindAndModify is not a function, query: {}, params: {"name":"string1","login":"string","password":"string"}}
 error: PUT, /users/3044ee43-a4ec-4177-be9b-9091bae8d0cd, status: 400, error: Bad user data, query: {}, params: {"name":"string1","login":"string","password":"string"}}
 error: PUT, /users/3044ee43-a4ec-4177-be9b-9091bae8d0cd, status: 400, error: Bad user data, query: {}, params: {"name":"string1","login":"string","password":"string"}}
+error: Unhandled Rejection at promice by reason: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: PUT, /boards/undefined, status: 400, error: Bad user data, query: {}, params: {"error":"Board validation failed: columns: Cast to String failed for value \"[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]\" at path \"columns\"","title":"Autotest updated board"}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: PUT, /boards/undefined, status: 400, error: Bad user data, query: {}, params: {"error":"Board validation failed: columns: Cast to String failed for value \"[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]\" at path \"columns\"","title":"Autotest updated board"}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: DELETE, /users/8b96b4e0-e4c9-4ddc-aa45-ffe4cfebadfa, status: 400, error: Bad user data, query: {}, params: {}}
+error: DELETE, /users/2342ab82-14af-4622-97fd-cacc5bcd65f8, status: 400, error: Bad user data, query: {}, params: {}}
+error: DELETE, /users/65a7cec3-4945-490b-85b2-2c6c309b4ec0, status: 400, error: Bad user data, query: {}, params: {}}
+error: DELETE, /users/226383c1-c9a7-4f83-b9fa-b7df675f974b, status: 400, error: Bad user data, query: {}, params: {}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns", query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'string', order: 0 } ]" at path "columns", query: {}, params: {"title":"string","columns":[{"title":"string","order":0}]}}
+error: POST, /boards, status: 500, error: Board validation failed: columns: Cast to String failed for value "[ { title: 'string', order: 0 } ]" at path "columns", query: {}, params: {"title":"string","columns":[{"title":"string","order":0}]}}
+error: DELETE, /boards/0fbfea42-eeed-48ad-b94e-ba06207574c5, status: 400, error: Bad user data, query: {}, params: {}}
+error: DELETE, /boards/199166ed-d0dd-47c5-9507-bf6bc0fe9f6a, status: 400, error: Bad user data, query: {}, params: {}}
+error: DELETE, /boards/fbc80bd8-1dd8-42a6-9727-33db91d413c4, status: 400, error: Bad user data, query: {}, params: {}}
+error: GET, /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/33097281-d11d-4b96-b856-a7fbea8b80c3, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/52df9c3e-3dc8-428a-8865-7b88012a3d4c, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/2a037d41-934f-47e6-8148-41aec951ca63, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/456d477d-493c-49ac-9fc0-9be7caff7800, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/33769f9d-9b17-4599-8a8f-75e6a27e9875/tasks/d36eff45-bc89-4d7f-8556-827142f405bb, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: DELETE, /boards/17a011f4-a9a2-4b01-8c19-1be00b38aa48, status: 400, error: Bad user data, query: {}, params: {}}
+error: DELETE, /boards/c615b6de-b0d4-4c5f-8a2c-126321e830bd, status: 400, error: Bad user data, query: {}, params: {}}
+error: DELETE, /boards/4d5b5f4c-0a61-4421-8506-5bea3996b809, status: 400, error: Bad user data, query: {}, params: {}}
+error: GET, /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/55d589b0-6965-4eec-8fe4-40a258f33859, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/97247fa0-f486-4ec3-ada3-7822e31a30c3, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/25a30a92-9d90-4750-8d23-5ac178565060, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/e49ea3e2-f2db-4962-b901-712382991824, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/d777a3f9-26f9-4895-92a8-2191be2c2891/tasks/fa6451c9-2050-4349-bd51-9b1738e0798d, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: DELETE, /boards/d25ba404-22e4-44f0-9e10-37b64345fa51, status: 400, error: Bad user data, query: {}, params: {}}
+error: DELETE, /boards/d25ba404-22e4-44f0-9e10-37b64345fa51, status: 400, error: Bad user data, query: {}, params: {}}
+error: GET, /boards/18e40892-3ee8-4627-8641-5d20b3ed303e, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/fcaeddd4-50a2-4c2b-818e-f5c74d731a14, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/3d72486e-41ab-40d5-bc9a-ea908fcac82b, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/f32a5d25-003b-4f83-9946-4b2eb2ae8aac, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/7ff3476d-91e2-40ce-a816-4de58b9127aa, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/9ee0f24c-d3c2-4055-9461-59fee5fbaee1/tasks/5be9b0a6-6388-4216-a8c6-6402b6d44911, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/0c057f92-f742-4b46-ab11-447031109ba5, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/e18ed0be-6a4e-4618-90ed-f8843193928d, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/b562b23c-838e-458d-80b4-b89e73a38e29, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/2e206dc4-da36-41c2-8d9d-95a4bb2815ca, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/4f0b7506-b615-4df9-a21c-1f270489d30f, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/0db3204a-2bb3-413d-97f0-eb5bcedb6a2b, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/31cc1530-1ec2-46a2-af6c-4f98d531dd02, status: 500, error: Cannot read property '_id' of null, query: {}, params: {}}
+error: GET, /boards/099248e1-d4dc-4efa-a344-4b767a7fb778, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: Unhandled Rejection at promice by reason: TypeError: console is not a function
+error: Unhandled Rejection at promice by reason: TypeError: console is not a function
+error: GET, /boards/cf49f561-4076-4973-ae56-3b3d4cc5ca45, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/33299e54-737c-40b2-8202-7ede36d85da1, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/58092910-5c31-4449-9f2e-ae15cd185ad6, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/22f61403-38b3-402f-8a6c-3c0a96d40195, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/bd05928f-efe5-4c64-846b-ee429674e438, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/25be1ada-8782-47d3-813f-431e9b5ab360, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/1, status: 500, error: Cannot read property 'id' of null, query: {}, params: {}}
+error: GET, /boards/1, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b487ad58-5912-4a6d-9ee8-cfbacd64b5d5, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/5cdd456e-7e05-424d-bb83-48df16000d36, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/91770664-182c-4cd5-9824-4ebd048daba9/tasks/e59b7d25-36f9-4fa4-aa87-bbef7c622d8f, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/98237f52-340c-4f39-9bad-e0e7fa741cde/tasks/dc0d97e9-52e7-42d5-b583-338e4fdbfc17, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/c32144fc-37f3-4bc5-b34b-74772bf8ea55, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/679d5622-a83f-4c2d-8db4-3867701ec747, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/55d7f1dc-4db7-4279-ac60-8ab4e7947d64, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/2668f073-6d8e-46fc-b25a-c22931d85252, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/9607e154-0329-4e6b-ac77-42ff22021381, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/2945cb90-c0c9-46b1-a7ec-9be545f2a515/tasks/346a5839-9044-4d88-92d3-05c87aa29e91, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/d82b190d-0206-462c-a0ef-ce9e7c57a685/tasks/1034dd9e-b76c-4fda-9961-2d8dfb95243e, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/fad49cdf-22eb-4bb4-809f-051f8ce63563, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/c15f290b-7d69-461f-a0cd-453264ad12e4, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/8594a768-6cf1-4427-a014-82e12db1c699, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/837bbd31-5e88-4ca7-99df-2704d5a3c16b, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/0857b5d6-7ccf-49cb-af3c-dd1c7f36ef69, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b98a11f8-f762-4179-9524-2315b5f10c58/tasks/873c03ca-7b6b-4ffc-9363-e23d1a08a99b, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/738eeb04-1f5b-4566-8ecf-44c73ed42007/tasks/c0b8d63d-655f-4fe7-b15e-313c6bd241ed, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/d8849bc0-86af-4940-aa17-5f46288169c1, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/129922a7-f45b-450b-bb35-e81bcac9adfd, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/44eefdb0-07b4-46ae-a8ec-23fcd195bcf6, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/6fea7fab-7706-4fd0-a6ba-f2da36a0f574, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/706ee011-8d21-490c-97ed-4fb9990ae70e, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/74a553bd-746b-4dbc-ad55-00d4de677069/tasks/606abccd-c42d-4793-9df2-84ce4e491e0f, status: 404, error: Task not found, query: {}, params: {}}
