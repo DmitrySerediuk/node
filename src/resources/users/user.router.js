@@ -5,11 +5,6 @@ const User = require('./user.model');
 const createError = require('http-errors');
 const { BAD_REQUEST, NOT_FOUND, OK, NO_CONTENT } = require('http-status-codes');
 
-// router.route('/').get(async (req, res, next) => {
-//     const users = await usersService.getAll();
-//     res.status(OK).json(users.map(User.toResponse));
-// });
-
 router.route('/').get(async (req, res, next) => {
   try {
     const users = await usersService.getAll();
@@ -34,7 +29,9 @@ router.route('/:id').get(async (req, res, next) => {
 
 router.route('/').post(async (req, res, next) => {
   try {
+    console.log('1');
     const newUser = await usersService.create(req.body);
+    console.log('2');
     if (!newUser) {
       throw new createError(BAD_REQUEST, 'Bad user data');
     } else {

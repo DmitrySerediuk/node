@@ -325,3 +325,432 @@ info: GET /boards/42e4c5fb-2d0f-4353-a727-9550348c2312/tasks/6574385c-8a1a-4c91-
 error: GET, /boards/42e4c5fb-2d0f-4353-a727-9550348c2312/tasks/6574385c-8a1a-4c91-a90d-91610c7fd56a, status: 404, error: Task not found, query: {}, params: {}}
 info: GET /boards/42e4c5fb-2d0f-4353-a727-9550348c2312/tasks/4258584b-2488-4155-b54b-03122e9999bb |  query: {}, params: {}
 error: GET, /boards/42e4c5fb-2d0f-4353-a727-9550348c2312/tasks/4258584b-2488-4155-b54b-03122e9999bb, status: 404, error: Task not found, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /users/8001b69e-a8eb-4de6-bb2a-4972cbcba49c |  query: {}, params: {}
+info: DELETE /users/8001b69e-a8eb-4de6-bb2a-4972cbcba49c |  query: {}, params: {}
+info: GET /boards |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /users/4d941241-9e2e-4f34-9ed7-8afbb35a36c1 |  query: {}, params: {}
+info: GET /boards/1 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/b6ca63e0-6894-4258-baf0-a10f14ecab56 |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"b6ca63e0-6894-4258-baf0-a10f14ecab56"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /users/b6ca63e0-6894-4258-baf0-a10f14ecab56 |  query: {}, params: {}
+info: DELETE /boards/13388678-de51-4cd8-92c8-9123c50061d0 |  query: {}, params: {}
+info: DELETE /users/b6ca63e0-6894-4258-baf0-a10f14ecab56 |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /boards/5bf9542a-ded6-4858-a1c2-d605a71a24db |  query: {}, params: {"id":"5bf9542a-ded6-4858-a1c2-d605a71a24db","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE /users/97dd8883-14d2-45a7-a712-a39a153e749b |  query: {}, params: {}
+info: GET /boards/5bf9542a-ded6-4858-a1c2-d605a71a24db |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /boards/5bf9542a-ded6-4858-a1c2-d605a71a24db |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards |  query: {}, params: {}
+info: DELETE /boards/1 |  query: {}, params: {}
+info: POST /boards/1920f625-f91c-480e-83f3-043587d9c958/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"2ab13172-d34b-40f6-9652-bf791d93775c","boardId":"1920f625-f91c-480e-83f3-043587d9c958"}
+info: POST /boards/1920f625-f91c-480e-83f3-043587d9c958/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"2ab13172-d34b-40f6-9652-bf791d93775c","boardId":"1920f625-f91c-480e-83f3-043587d9c958"}
+info: GET /boards/1 |  query: {}, params: {}
+error: GET, /boards/1, status: 404, error: Task not found, query: {}, params: {}}
+info: DELETE /users/2ab13172-d34b-40f6-9652-bf791d93775c |  query: {}, params: {}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET /boards/1920f625-f91c-480e-83f3-043587d9c958/tasks/deef1486-fc76-4e8b-bf7e-1e261c2808fb |  query: {}, params: {}
+info: GET /boards/1920f625-f91c-480e-83f3-043587d9c958/tasks/57a56308-acef-4d8d-9b72-126bf0c6b583 |  query: {}, params: {}
+info: POST /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks |  query: {}, params: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"04d46f28-bf27-4637-8b2f-7884f4c427e4","userId":null,"columnId":null}
+info: POST /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks |  query: {}, params: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"04d46f28-bf27-4637-8b2f-7884f4c427e4","userId":null,"columnId":null}
+info: POST /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"04d46f28-bf27-4637-8b2f-7884f4c427e4","userId":null,"columnId":null}
+info: POST /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"04d46f28-bf27-4637-8b2f-7884f4c427e4","userId":null,"columnId":null}
+info: POST /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks |  query: {}, params: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"04d46f28-bf27-4637-8b2f-7884f4c427e4","userId":null,"columnId":null}
+info: DELETE /boards/1920f625-f91c-480e-83f3-043587d9c958/tasks/deef1486-fc76-4e8b-bf7e-1e261c2808fb |  query: {}, params: {}
+info: DELETE /boards/1920f625-f91c-480e-83f3-043587d9c958/tasks/57a56308-acef-4d8d-9b72-126bf0c6b583 |  query: {}, params: {}
+info: GET /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/48dd5fe0-f00f-4202-87bc-45112ea3a1c2 |  query: {}, params: {}
+info: GET /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/daf7c360-a201-4831-acd0-4ed35d07605f |  query: {}, params: {}
+info: GET /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/9a1d48fd-f532-449f-8d48-b67c3e43d79b |  query: {}, params: {}
+info: GET /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/6edda3c9-68f1-4aaf-ae94-303ec9ba2797 |  query: {}, params: {}
+info: GET /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/3932639e-52c5-4eea-b552-9534680e782d |  query: {}, params: {}
+info: DELETE /boards/1920f625-f91c-480e-83f3-043587d9c958 |  query: {}, params: {}
+info: DELETE /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4 |  query: {}, params: {}
+info: GET /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/daf7c360-a201-4831-acd0-4ed35d07605f |  query: {}, params: {}
+error: GET, /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/daf7c360-a201-4831-acd0-4ed35d07605f, status: 404, error: Task not found, query: {}, params: {}}
+info: GET /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/48dd5fe0-f00f-4202-87bc-45112ea3a1c2 |  query: {}, params: {}
+error: GET, /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/48dd5fe0-f00f-4202-87bc-45112ea3a1c2, status: 404, error: Task not found, query: {}, params: {}}
+info: GET /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/9a1d48fd-f532-449f-8d48-b67c3e43d79b |  query: {}, params: {}
+error: GET, /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/9a1d48fd-f532-449f-8d48-b67c3e43d79b, status: 404, error: Task not found, query: {}, params: {}}
+info: GET /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/3932639e-52c5-4eea-b552-9534680e782d |  query: {}, params: {}
+error: GET, /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/3932639e-52c5-4eea-b552-9534680e782d, status: 404, error: Task not found, query: {}, params: {}}
+info: GET /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/6edda3c9-68f1-4aaf-ae94-303ec9ba2797 |  query: {}, params: {}
+error: GET, /boards/04d46f28-bf27-4637-8b2f-7884f4c427e4/tasks/6edda3c9-68f1-4aaf-ae94-303ec9ba2797, status: 404, error: Task not found, query: {}, params: {}}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: GET /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks |  query: {}, params: {}
+info: GET /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks |  query: {}, params: {}
+info: GET /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks/9c8585ad-f455-44e8-b0a0-a9d7a2b3dafe |  query: {}, params: {}
+info: POST /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: DELETE /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks/454b30e4-21b6-45de-b741-17b67d401eb1 |  query: {}, params: {}
+info: POST /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks |  query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: PUT /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks/21fdd951-b5a3-47b1-97b4-474e15887c38 |  query: {}, params: {"id":"21fdd951-b5a3-47b1-97b4-474e15887c38","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"88191e55-9ef9-43ed-97b3-97bd61a51af7","columnId":null}
+info: GET /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks/21fdd951-b5a3-47b1-97b4-474e15887c38 |  query: {}, params: {}
+info: GET /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks/9c8585ad-f455-44e8-b0a0-a9d7a2b3dafe |  query: {}, params: {}
+info: DELETE /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks/9c8585ad-f455-44e8-b0a0-a9d7a2b3dafe |  query: {}, params: {}
+info: GET /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks/9c8585ad-f455-44e8-b0a0-a9d7a2b3dafe |  query: {}, params: {}
+error: GET, /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7/tasks/9c8585ad-f455-44e8-b0a0-a9d7a2b3dafe, status: 404, error: Task not found, query: {}, params: {}}
+info: DELETE /boards/88191e55-9ef9-43ed-97b3-97bd61a51af7 |  query: {}, params: {}
+error: Unhandled Rejection at promice by reason: Error: Oops!
+error: Unhandled Rejection at promice by reason: Error: Oops!
+error: Unhandled Rejection at promice by reason: Error: Oops!
+error: Unhandled Rejection at promice by reason: Error: Oops!
+error: Unhandled Rejection at promice by reason: Error: Oops!
+error: Uncaught Exception Error: Test uncaughtException error
+error: Uncaught Exception Error: Test uncaughtException error
+error: Uncaught Exception Error: Test uncaughtException error
+error: Uncaught Exception Error: Test uncaughtException error
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: PUT /users/undefined |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: PUT, /users/undefined, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: DELETE /users/undefined |  query: {}, params: {}
+error: DELETE, /users/undefined, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+error: Unhandled Rejection at promice by reason: MongoError: user is not allowed to do action [dropDatabase] on [test.]
+error: Unhandled Rejection at promice by reason: MongoError: user is not allowed to do action [dropDatabase] on [test.]
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: PUT /users/undefined |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: PUT, /users/undefined, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: DELETE /users/undefined |  query: {}, params: {}
+error: DELETE, /users/undefined, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: PUT /users/undefined |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: PUT, /users/undefined, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: DELETE /users/undefined |  query: {}, params: {}
+error: DELETE, /users/undefined, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: Internal server error, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: PUT /users/undefined |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: PUT, /users/undefined, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: DELETE /users/undefined |  query: {}, params: {}
+error: DELETE, /users/undefined, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+error: Unhandled Rejection at promice by reason: MongoError: Cannot create collection test.users - database is in the process of being dropped.
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: PUT /users/undefined |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: PUT, /users/undefined, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: DELETE /users/undefined |  query: {}, params: {}
+error: DELETE, /users/undefined, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: User.toResponse is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+error: GET, /users, status: 500, error: undefined is not a function, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/bfa86dbc-a7e2-479a-8527-acb0c2e6abd2 |  query: {}, params: {}
+error: GET, /users/bfa86dbc-a7e2-479a-8527-acb0c2e6abd2, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/db6e08fe-6d8a-4d42-bce8-023eb490271c |  query: {}, params: {}
+error: DELETE, /users/db6e08fe-6d8a-4d42-bce8-023eb490271c, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/7c7118f9-bb6c-4726-9db3-5700b0c3adbb |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"7c7118f9-bb6c-4726-9db3-5700b0c3adbb"}
+error: PUT, /users/7c7118f9-bb6c-4726-9db3-5700b0c3adbb, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"7c7118f9-bb6c-4726-9db3-5700b0c3adbb"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/fdb6784b-c293-4fc5-8612-0d516272a64e |  query: {}, params: {}
+error: DELETE, /users/fdb6784b-c293-4fc5-8612-0d516272a64e, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/b5ed0491-f680-424e-a523-12895fd65e60/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5d6dc653-8e73-4b69-b280-253fdec2bf2d","boardId":"b5ed0491-f680-424e-a523-12895fd65e60"}
+info: POST /boards/b5ed0491-f680-424e-a523-12895fd65e60/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5d6dc653-8e73-4b69-b280-253fdec2bf2d","boardId":"b5ed0491-f680-424e-a523-12895fd65e60"}
+info: DELETE /users/5d6dc653-8e73-4b69-b280-253fdec2bf2d |  query: {}, params: {}
+error: DELETE, /users/5d6dc653-8e73-4b69-b280-253fdec2bf2d, status: 500, error: Internal server error, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/2a00c515-5df6-48c6-b6a0-e4bd80ede5ef |  query: {}, params: {}
+error: GET, /users/2a00c515-5df6-48c6-b6a0-e4bd80ede5ef, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/7d60398b-73dd-4ad9-9de5-1dfce9136a54 |  query: {}, params: {}
+error: DELETE, /users/7d60398b-73dd-4ad9-9de5-1dfce9136a54, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/67c2b291-ec41-410e-a71d-da7362be603f |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"67c2b291-ec41-410e-a71d-da7362be603f"}
+error: PUT, /users/67c2b291-ec41-410e-a71d-da7362be603f, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"67c2b291-ec41-410e-a71d-da7362be603f"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/b0937b54-101c-4b47-b754-7c4fa42793b8 |  query: {}, params: {}
+error: DELETE, /users/b0937b54-101c-4b47-b754-7c4fa42793b8, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/6def8794-fe15-4133-838a-b7c21fb53f5d/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"d7ac00ae-0560-44de-8d9a-6059ef12c296","boardId":"6def8794-fe15-4133-838a-b7c21fb53f5d"}
+info: POST /boards/6def8794-fe15-4133-838a-b7c21fb53f5d/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"d7ac00ae-0560-44de-8d9a-6059ef12c296","boardId":"6def8794-fe15-4133-838a-b7c21fb53f5d"}
+info: DELETE /users/d7ac00ae-0560-44de-8d9a-6059ef12c296 |  query: {}, params: {}
+error: DELETE, /users/d7ac00ae-0560-44de-8d9a-6059ef12c296, status: 500, error: Internal server error, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/e754aa44-332b-4822-87fd-5a4787866e07 |  query: {}, params: {}
+info: DELETE /users/e754aa44-332b-4822-87fd-5a4787866e07 |  query: {}, params: {}
+error: DELETE, /users/e754aa44-332b-4822-87fd-5a4787866e07, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/49047bd3-23f6-4934-82fa-5d59cff11864 |  query: {}, params: {}
+error: DELETE, /users/49047bd3-23f6-4934-82fa-5d59cff11864, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/273765bd-e88c-43cd-a0a6-fbfe283a3b18 |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"273765bd-e88c-43cd-a0a6-fbfe283a3b18"}
+error: PUT, /users/273765bd-e88c-43cd-a0a6-fbfe283a3b18, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"273765bd-e88c-43cd-a0a6-fbfe283a3b18"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/d6c99ccb-48a1-4f8f-92d7-beb6a6974796 |  query: {}, params: {}
+error: DELETE, /users/d6c99ccb-48a1-4f8f-92d7-beb6a6974796, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/72b29088-e5ae-4b60-a7e2-34a7e7a080c1/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"ad482fd1-05f5-4c4f-8da4-7e4935fe37f7","boardId":"72b29088-e5ae-4b60-a7e2-34a7e7a080c1"}
+info: POST /boards/72b29088-e5ae-4b60-a7e2-34a7e7a080c1/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"ad482fd1-05f5-4c4f-8da4-7e4935fe37f7","boardId":"72b29088-e5ae-4b60-a7e2-34a7e7a080c1"}
+info: DELETE /users/ad482fd1-05f5-4c4f-8da4-7e4935fe37f7 |  query: {}, params: {}
+error: DELETE, /users/ad482fd1-05f5-4c4f-8da4-7e4935fe37f7, status: 500, error: Internal server error, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/1bf36e3f-ed1b-4ee1-992f-4d5b71a38a72 |  query: {}, params: {}
+info: DELETE /users/1bf36e3f-ed1b-4ee1-992f-4d5b71a38a72 |  query: {}, params: {}
+error: DELETE, /users/1bf36e3f-ed1b-4ee1-992f-4d5b71a38a72, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/9f7e4540-58f8-4e58-b504-9cedd866517f |  query: {}, params: {}
+error: DELETE, /users/9f7e4540-58f8-4e58-b504-9cedd866517f, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/0b0da9a7-08d9-4a08-a2e4-397fcbd6d2b8 |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"0b0da9a7-08d9-4a08-a2e4-397fcbd6d2b8"}
+error: PUT, /users/0b0da9a7-08d9-4a08-a2e4-397fcbd6d2b8, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"0b0da9a7-08d9-4a08-a2e4-397fcbd6d2b8"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/bdb48b77-4602-454e-9bd0-e018619cc4bc |  query: {}, params: {}
+error: DELETE, /users/bdb48b77-4602-454e-9bd0-e018619cc4bc, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/48b34c94-4e1c-46d7-b4fb-c854e0c7ea15/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"531faf4d-1f4d-47e5-811e-1726b2811129","boardId":"48b34c94-4e1c-46d7-b4fb-c854e0c7ea15"}
+info: POST /boards/48b34c94-4e1c-46d7-b4fb-c854e0c7ea15/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"531faf4d-1f4d-47e5-811e-1726b2811129","boardId":"48b34c94-4e1c-46d7-b4fb-c854e0c7ea15"}
+info: DELETE /users/531faf4d-1f4d-47e5-811e-1726b2811129 |  query: {}, params: {}
+error: DELETE, /users/531faf4d-1f4d-47e5-811e-1726b2811129, status: 500, error: Internal server error, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: PUT /users/undefined |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: PUT, /users/undefined, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: DELETE /users/undefined |  query: {}, params: {}
+error: DELETE, /users/undefined, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: PUT /users/undefined |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: PUT, /users/undefined, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: DELETE /users/undefined |  query: {}, params: {}
+error: DELETE, /users/undefined, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: PUT /users/undefined |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: PUT, /users/undefined, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: DELETE /users/undefined |  query: {}, params: {}
+error: DELETE, /users/undefined, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"string","login":"string","password":"string"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"string","login":"string","password":"string"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"string","login":"string","password":"string"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"string","login":"string","password":"string"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"string","login":"string","password":"string"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+error: POST, /users, status: 500, error: User.create(...).exec is not a function, query: {}, params: {"name":"string","login":"string","password":"string"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/58beff1e-3921-4913-9e48-39469a904dad |  query: {}, params: {}
+info: DELETE /users/58beff1e-3921-4913-9e48-39469a904dad |  query: {}, params: {}
+error: DELETE, /users/58beff1e-3921-4913-9e48-39469a904dad, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/0d74142c-7831-4118-b50c-a0c00456eef5 |  query: {}, params: {}
+error: DELETE, /users/0d74142c-7831-4118-b50c-a0c00456eef5, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/f538eb3a-0ef9-4673-b90a-33b42ada6c35 |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"f538eb3a-0ef9-4673-b90a-33b42ada6c35"}
+error: PUT, /users/f538eb3a-0ef9-4673-b90a-33b42ada6c35, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"f538eb3a-0ef9-4673-b90a-33b42ada6c35"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/18894a54-34ea-4452-8fb6-bd60a5d74f09 |  query: {}, params: {}
+error: DELETE, /users/18894a54-34ea-4452-8fb6-bd60a5d74f09, status: 500, error: Internal server error, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/f7b54f84-f7db-4ab3-9bfe-7f27988aa3a8/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"385875bf-75d2-499f-a930-17997cdd6ae1","boardId":"f7b54f84-f7db-4ab3-9bfe-7f27988aa3a8"}
+info: POST /boards/f7b54f84-f7db-4ab3-9bfe-7f27988aa3a8/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"385875bf-75d2-499f-a930-17997cdd6ae1","boardId":"f7b54f84-f7db-4ab3-9bfe-7f27988aa3a8"}
+info: DELETE /users/385875bf-75d2-499f-a930-17997cdd6ae1 |  query: {}, params: {}
+error: DELETE, /users/385875bf-75d2-499f-a930-17997cdd6ae1, status: 500, error: Internal server error, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/070a459e-cf5c-4dd5-a9a8-7594e0d64fdd |  query: {}, params: {}
+info: DELETE /users/070a459e-cf5c-4dd5-a9a8-7594e0d64fdd |  query: {}, params: {}
+error: DELETE, /users/070a459e-cf5c-4dd5-a9a8-7594e0d64fdd, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/f6cad386-0ac0-4332-8789-943660328e8b |  query: {}, params: {}
+error: DELETE, /users/f6cad386-0ac0-4332-8789-943660328e8b, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/83867c03-71ca-41a9-ad6a-b0fd6d75c0fc |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"83867c03-71ca-41a9-ad6a-b0fd6d75c0fc"}
+error: PUT, /users/83867c03-71ca-41a9-ad6a-b0fd6d75c0fc, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"83867c03-71ca-41a9-ad6a-b0fd6d75c0fc"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/e75334fc-ee01-409c-923d-4b31c6488b24 |  query: {}, params: {}
+error: DELETE, /users/e75334fc-ee01-409c-923d-4b31c6488b24, status: 400, error: Bad user data, query: {}, params: {}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/286c7d57-5e8c-4c82-b9bc-7c659d93723a/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"1f895210-aed3-4f5c-ab45-3ba951f3181a","boardId":"286c7d57-5e8c-4c82-b9bc-7c659d93723a"}
+info: POST /boards/286c7d57-5e8c-4c82-b9bc-7c659d93723a/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"1f895210-aed3-4f5c-ab45-3ba951f3181a","boardId":"286c7d57-5e8c-4c82-b9bc-7c659d93723a"}
+info: DELETE /users/1f895210-aed3-4f5c-ab45-3ba951f3181a |  query: {}, params: {}
+error: DELETE, /users/1f895210-aed3-4f5c-ab45-3ba951f3181a, status: 400, error: Bad user data, query: {}, params: {}}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/e850724f-74bf-4c2f-8db9-7542e68680cd |  query: {}, params: {}
+info: DELETE /users/e850724f-74bf-4c2f-8db9-7542e68680cd |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/f47cfc21-62cb-42cd-8d1c-ad5ffb7d2b4a |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/60cac8d7-e387-4b46-b7b6-9e61d8fa8628 |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"60cac8d7-e387-4b46-b7b6-9e61d8fa8628"}
+error: PUT, /users/60cac8d7-e387-4b46-b7b6-9e61d8fa8628, status: 500, error: Internal server error, query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"60cac8d7-e387-4b46-b7b6-9e61d8fa8628"}}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/b04ae804-2059-4d93-a694-e7de9db17a5e |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/186f9fae-ec56-4176-bcac-99eccbe02e7e/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"e52803f9-f6e1-437a-9520-7a462b108799","boardId":"186f9fae-ec56-4176-bcac-99eccbe02e7e"}
+info: POST /boards/186f9fae-ec56-4176-bcac-99eccbe02e7e/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"e52803f9-f6e1-437a-9520-7a462b108799","boardId":"186f9fae-ec56-4176-bcac-99eccbe02e7e"}
+info: DELETE /users/e52803f9-f6e1-437a-9520-7a462b108799 |  query: {}, params: {}
+info: GET /boards/186f9fae-ec56-4176-bcac-99eccbe02e7e/tasks/88ef1a15-6dcb-4460-aec6-f1d75d14ad4e |  query: {}, params: {}
+info: GET /boards/186f9fae-ec56-4176-bcac-99eccbe02e7e/tasks/2b799a43-bae5-4f5b-a795-d0499f3d0221 |  query: {}, params: {}
+info: DELETE /boards/186f9fae-ec56-4176-bcac-99eccbe02e7e/tasks/88ef1a15-6dcb-4460-aec6-f1d75d14ad4e |  query: {}, params: {}
+info: DELETE /boards/186f9fae-ec56-4176-bcac-99eccbe02e7e/tasks/2b799a43-bae5-4f5b-a795-d0499f3d0221 |  query: {}, params: {}
+info: DELETE /boards/186f9fae-ec56-4176-bcac-99eccbe02e7e |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+info: PUT /users/5cac1b34-b3c8-43f0-8337-714483c0e48a |  query: {}, params: {"name":"string1","login":"string","password":"string"}
+error: PUT, /users/5cac1b34-b3c8-43f0-8337-714483c0e48a, status: 400, error: Bad user data, query: {}, params: {"name":"string1","login":"string","password":"string"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+info: PUT /users/066626d2-2e3c-45dd-9cdb-06888acf10c2 |  query: {}, params: {"name":"string1","login":"string","password":"string"}
+error: PUT, /users/066626d2-2e3c-45dd-9cdb-06888acf10c2, status: 400, error: Bad user data, query: {}, params: {"name":"string1","login":"string","password":"string"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+info: PUT /users/641b6820-262d-46a6-87e9-bfa1304509ea |  query: {}, params: {"name":"string1","login":"string","password":"string"}
+error: PUT, /users/641b6820-262d-46a6-87e9-bfa1304509ea, status: 400, error: Bad user data, query: {}, params: {"name":"string1","login":"string","password":"string"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+info: PUT /users/34007fb3-3e40-4341-abfa-b8ffdd61373f |  query: {}, params: {"name":"string1","login":"string","password":"string"}
+error: PUT, /users/34007fb3-3e40-4341-abfa-b8ffdd61373f, status: 500, error: User.useFindAndModify is not a function, query: {}, params: {"name":"string1","login":"string","password":"string"}}
+info: POST /users |  query: {}, params: {"name":"string","login":"string","password":"string"}
+info: PUT /users/3044ee43-a4ec-4177-be9b-9091bae8d0cd |  query: {}, params: {"name":"string1","login":"string","password":"string"}
+error: PUT, /users/3044ee43-a4ec-4177-be9b-9091bae8d0cd, status: 400, error: Bad user data, query: {}, params: {"name":"string1","login":"string","password":"string"}}
+info: PUT /users/3044ee43-a4ec-4177-be9b-9091bae8d0cd |  query: {}, params: {"name":"string1","login":"string","password":"string"}
+error: PUT, /users/3044ee43-a4ec-4177-be9b-9091bae8d0cd, status: 400, error: Bad user data, query: {}, params: {"name":"string1","login":"string","password":"string"}}
+info: GET /users |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET /users/486e7d52-721e-47d0-8b81-17646d9ab020 |  query: {}, params: {}
+info: DELETE /users/486e7d52-721e-47d0-8b81-17646d9ab020 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/e1c8dce6-13a7-4c40-bbd0-eb49df409a99 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT /users/8680b05b-aaa6-4624-bea8-ba99f07bcf05 |  query: {}, params: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"8680b05b-aaa6-4624-bea8-ba99f07bcf05"}
+info: GET /users/8680b05b-aaa6-4624-bea8-ba99f07bcf05 |  query: {}, params: {}
+info: DELETE /users/8680b05b-aaa6-4624-bea8-ba99f07bcf05 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE /users/2433524f-5206-4e18-acb7-d95102987fe3 |  query: {}, params: {}
+info: POST /users |  query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST /boards |  query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST /boards/450c4091-b089-4ffd-bacb-2980be7c8e89/tasks |  query: {}, params: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5866d682-3edc-4859-b813-ad99f6c8e7eb","boardId":"450c4091-b089-4ffd-bacb-2980be7c8e89"}
+info: POST /boards/450c4091-b089-4ffd-bacb-2980be7c8e89/tasks |  query: {}, params: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5866d682-3edc-4859-b813-ad99f6c8e7eb","boardId":"450c4091-b089-4ffd-bacb-2980be7c8e89"}
+info: DELETE /users/5866d682-3edc-4859-b813-ad99f6c8e7eb |  query: {}, params: {}
+info: GET /boards/450c4091-b089-4ffd-bacb-2980be7c8e89/tasks/ce580a26-17db-4bbf-b6df-754ee191a493 |  query: {}, params: {}
+info: GET /boards/450c4091-b089-4ffd-bacb-2980be7c8e89/tasks/763f4317-43b7-4167-9dd8-a648b2459d03 |  query: {}, params: {}
+info: DELETE /boards/450c4091-b089-4ffd-bacb-2980be7c8e89/tasks/ce580a26-17db-4bbf-b6df-754ee191a493 |  query: {}, params: {}
+info: DELETE /boards/450c4091-b089-4ffd-bacb-2980be7c8e89/tasks/763f4317-43b7-4167-9dd8-a648b2459d03 |  query: {}, params: {}
+info: DELETE /boards/450c4091-b089-4ffd-bacb-2980be7c8e89 |  query: {}, params: {}
