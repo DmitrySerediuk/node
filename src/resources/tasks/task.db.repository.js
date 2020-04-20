@@ -17,7 +17,7 @@ const update = async (id, objData) => {
 };
 
 const remove = async id => {
-  await Task.remove({ _id: id });
+  await Task.deleteOne({ _id: id });
   return true;
 };
 
