@@ -20,4 +20,8 @@ const remove = async id => {
   return (await User.remove({ _id: id }).n) !== 0;
 };
 
-module.exports = { getAll, getById, create, update, remove };
+const getByLogin = async userLogin => {
+  return await User.findOne({ login: userLogin });
+};
+
+module.exports = { getAll, getById, create, update, remove, getByLogin };

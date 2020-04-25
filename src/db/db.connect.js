@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const process = require('process');
+const { MONGO_CONNECTION_STRING } = require('../common/config');
 
 const connectToDb = cb => {
-  mongoose.connect(process.env.MONGO_CONNECTION_STRING, {
+  mongoose.connect(MONGO_CONNECTION_STRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
@@ -13,7 +13,7 @@ const connectToDb = cb => {
   db.on('error', console.error.bind(console, 'connection error:'));
   db.once('open', () => {
     console.log("we're connected!");
-    db.dropDatabase();
+    // db.dropDatabase();
     cb();
   });
 };
