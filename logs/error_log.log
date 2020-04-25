@@ -1,0 +1,22 @@
+error: GET, /boards/fe97c51b-4d7d-46e1-8245-09e47d89d5b8/tasks/9aa0431b-9009-45b0-ba2b-30a57c8cafca, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/6a6a2c74-84c1-4083-8b95-6deb65275e6d, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards, status: 401, error: Unauthorized, query: {}, params: {}}
+error: GET, /boards/12345, status: 401, error: Unauthorized, query: {}, params: {}}
+error: POST, /boards, status: 401, error: Unauthorized, query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: PUT, /boards/12345, status: 401, error: Unauthorized, query: {}, params: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+error: DELETE, /boards/12345, status: 401, error: Unauthorized, query: {}, params: {}}
+error: GET, /users, status: 401, error: Unauthorized, query: {}, params: {}}
+error: GET, /users/123, status: 401, error: Unauthorized, query: {}, params: {}}
+error: POST, /users, status: 401, error: Unauthorized, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+error: PUT, /users/12345, status: 401, error: Unauthorized, query: {}, params: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+error: DELETE, /users/12345, status: 401, error: Unauthorized, query: {}, params: {}}
+error: GET, /boards/12345/tasks, status: 401, error: Unauthorized, query: {}, params: {}}
+error: GET, /boards/12345/tasks/12345, status: 401, error: Unauthorized, query: {}, params: {}}
+error: POST, /boards/12345/tasks, status: 401, error: Unauthorized, query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+error: PUT, /boards/12345/tasks/12345, status: 401, error: Unauthorized, query: {}, params: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+error: DELETE, /boards/12345/tasks/12345, status: 401, error: Unauthorized, query: {}, params: {}}
+error: GET, /boards/b2611ff8-756e-4bef-aaf8-c8d94ad23950/tasks/1a5d317c-f356-4b09-99a5-c6725541a43a, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b2611ff8-756e-4bef-aaf8-c8d94ad23950/tasks/bf82df67-6a9d-4792-923f-dd8a86e467be, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b2611ff8-756e-4bef-aaf8-c8d94ad23950/tasks/c696bbbf-d0a7-47f8-a8c8-c3c8b6262806, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b2611ff8-756e-4bef-aaf8-c8d94ad23950/tasks/5fcc74e0-45c1-4e27-906d-460648b2fc4c, status: 404, error: Task not found, query: {}, params: {}}
+error: GET, /boards/b2611ff8-756e-4bef-aaf8-c8d94ad23950/tasks/44ea171d-6d63-4697-8ad4-c3ed4afecdcb, status: 404, error: Task not found, query: {}, params: {}}

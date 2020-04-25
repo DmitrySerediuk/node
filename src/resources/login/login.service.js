@@ -3,14 +3,14 @@ const usersRepo = require('../users/user.db.repository');
 const { JWT_SECRET_KEY } = require('../../common/config');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
-const BYCTYPT_SALT_ROUND = require('../../common/config');
+const { BYCTYPT_SALT_ROUND } = require('../../common/config');
 
-const hashPwd = password => {
-  return bcrypt.hashSync(password, BYCTYPT_SALT_ROUND);
+const hashPwd = async password => {
+  return await bcrypt.hashSync(password, BYCTYPT_SALT_ROUND);
 };
 
-const verifyPwd = (password, hash) => {
-  return bcrypt.compareSync(password, hash);
+const verifyPwd = async (password, hash) => {
+  return await bcrypt.compareSync(password, hash);
 };
 
 const getJWTToken = async data => {
